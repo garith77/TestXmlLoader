@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Units>
+  <Unit>
+    <UnitCode>ICTPRG507</UnitCode>
+    <IsEssential>False</IsEssential>
+    <UnitName>Implement security for applications</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG507_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG507_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTPRG514</UnitCode>
+    <IsEssential>False</IsEssential>
+    <UnitName>Prepare for software development using rapid application development</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG514_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG514_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTSAD502</UnitCode>
+    <IsEssential>False</IsEssential>
+    <UnitName>Model data processes</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTSAD502_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTSAD502_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTPRG505</UnitCode>
+    <IsEssential>False</IsEssential>
+    <UnitName>Build advanced user interface</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG505_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG505_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTSAS502</UnitCode>
+    <IsEssential>False</IsEssential>
+    <UnitName>Establish and maintain client user liaison</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTSAS502_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTSAS502_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTPRG512</UnitCode>
+    <IsEssential>False</IsEssential>
+    <UnitName>Prepare for the build phase of an ICT system</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG512_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG512_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTNWK514</UnitCode>
+    <IsEssential>False</IsEssential>
+    <UnitName>Model preferred system solutions</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTNWK514_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTNWK514_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTSAD506</UnitCode>
+    <IsEssential>False</IsEssential>
+    <UnitName>Produce a feasibility report</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTSAD506_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTSAD506_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTPRG513</UnitCode>
+    <IsEssential>False</IsEssential>
+    <UnitName>Coordinate the build phase of an ICT system</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG513_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG513_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTPRG504</UnitCode>
+    <IsEssential>True</IsEssential>
+    <UnitName>Deploy an application to a production environment</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG504_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG504_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTPRG501</UnitCode>
+    <IsEssential>True</IsEssential>
+    <UnitName>Apply advanced object-oriented language skills</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG501_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG501_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTICT403</UnitCode>
+    <IsEssential>False</IsEssential>
+    <UnitName>Apply software development methodologies</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTICT403_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTICT403_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTICT511</UnitCode>
+    <IsEssential>False</IsEssential>
+    <UnitName>Match ICT needs with the strategic direction of the enterprise</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTICT511_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTICT511_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTPRG503</UnitCode>
+    <IsEssential>True</IsEssential>
+    <UnitName>Debug and monitor applications</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG503_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG503_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTPRG520</UnitCode>
+    <IsEssential>True</IsEssential>
+    <UnitName>Validate an application design against specifications</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG520_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG520_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTPRG529</UnitCode>
+    <IsEssential>True</IsEssential>
+    <UnitName>Apply testing techniques for software development</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG529_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG529_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTICT509</UnitCode>
+    <IsEssential>False</IsEssential>
+    <UnitName>Gather data to identify business requirements</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTICT509_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTICT509_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTPRG506</UnitCode>
+    <IsEssential>False</IsEssential>
+    <UnitName>Design application architecture</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG506_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG506_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTPRG508</UnitCode>
+    <IsEssential>False</IsEssential>
+    <UnitName>Create mashups</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG508_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG508_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTICT418</UnitCode>
+    <IsEssential>True</IsEssential>
+    <UnitName>Contribute to copyright, ethics and privacy in an ICT environment</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTICT418_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTICT418_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTPRG515</UnitCode>
+    <IsEssential>False</IsEssential>
+    <UnitName>Review developed software</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG515_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG515_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTPRG604</UnitCode>
+    <IsEssential>False</IsEssential>
+    <UnitName>Create cloud computing services</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG604_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG604_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTPRG509</UnitCode>
+    <IsEssential>False</IsEssential>
+    <UnitName>Build using rapid application development</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG509_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG509_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTICT503</UnitCode>
+    <IsEssential>False</IsEssential>
+    <UnitName>Validate quality and completeness of system design specifications</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTICT503_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTICT503_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTICT514</UnitCode>
+    <IsEssential>False</IsEssential>
+    <UnitName>Identify and manage the implementation of current industry specific technologies</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTICT514_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTICT514_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTPRG523</UnitCode>
+    <IsEssential>True</IsEssential>
+    <UnitName>Apply advanced programming skills in another language</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG523_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG523_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTPRG527</UnitCode>
+    <IsEssential>True</IsEssential>
+    <UnitName>Apply intermediate object-oriented language skills</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG527_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG527_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTPRG510</UnitCode>
+    <IsEssential>False</IsEssential>
+    <UnitName>Maintain custom software</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG510_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG510_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTPRG502</UnitCode>
+    <IsEssential>True</IsEssential>
+    <UnitName>Manage a project using software management tools</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG502_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG502_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTPMG501</UnitCode>
+    <IsEssential>False</IsEssential>
+    <UnitName>Manage ICT projects</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTPMG501_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTPMG501_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTSAD501</UnitCode>
+    <IsEssential>False</IsEssential>
+    <UnitName>Model data objects</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTSAD501_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTSAD501_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTPRG601</UnitCode>
+    <IsEssential>False</IsEssential>
+    <UnitName>Develop advanced mobile multi-touch applications</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG601_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG601_R1.xml</Elements>
+  </Unit>
+  <Unit>
+    <UnitCode>ICTPRG418</UnitCode>
+    <IsEssential>True</IsEssential>
+    <UnitName>Apply intermediate programming skills in another language</UnitName>
+    <AssesmentRequirments>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG418_AssessmentRequirements_R1.xml</AssesmentRequirments>
+    <Elements>http://training.gov.au/TrainingComponentFiles/ICT/ICTPRG418_R1.xml</Elements>
+  </Unit>
+</Units>

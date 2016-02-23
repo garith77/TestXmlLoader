@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Deewr.Tga.Model" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Deewr.Tga.Model" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="UsageRecommendationState">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Unknown" />
+      <xs:enumeration value="Current" />
+      <xs:enumeration value="Superseded" />
+      <xs:enumeration value="Deleted" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="UsageRecommendationState" nillable="true" type="tns:UsageRecommendationState" />
+</xs:schema>

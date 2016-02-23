@@ -1,0 +1,5578 @@
+﻿{
+  "AuthorIT": {
+    "-xmlns": "http://www.authorit.com/xml/authorit",
+    "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "-version": "6.2.0",
+    "-xsi:schemaLocation": "http://www.authorit.com/xml/authorit AuthorIT.xsd",
+    "Objects": {
+      "Book": [
+        {
+          "Object": {
+            "BasedOn": "0",
+            "CreatedBy": "(supervisor)",
+            "CreatedDate": "2012-11-20T12:35:33",
+            "Description": "Streamlined Unit Template",
+            "FolderID": "72391",
+            "GUID": "dc36dab3fb3b44d8a7d28b6e31705a1f",
+            "ID": "513641",
+            "IncludeInHelp": {
+              "-inherit": "true",
+              "#text": "true"
+            },
+            "IncludeInPrint": {
+              "-inherit": "true",
+              "#text": "true"
+            },
+            "IncludeInWeb": {
+              "-inherit": "true",
+              "#text": "true"
+            },
+            "IsTemplate": "true",
+            "Key": "513641",
+            "LocalizationID": "0",
+            "ModifiedID": "2090039",
+            "ModifiedBy": "(supervisor)",
+            "ModifiedDate": "2013-08-23T17:27:42",
+            "ReleaseStateID": "0",
+            "Status": "1",
+            "Type": "Book",
+            "Version": "1",
+            "VariantParentID": "0",
+            "LocID": "1"
+          },
+          "Structure": {
+            "StructureID": "107",
+            "Name": "Streamlined Unit Template Structure",
+            "ExampleObjectID": "0",
+            "StructureRules": {
+              "StructureRule": [
+                {
+                  "StructureRuleID": "866",
+                  "Name": "Modification History Topic rule",
+                  "AllowedObjects": {
+                    "Relation": { "ID": "475" }
+                  },
+                  "ExampleObjectID": "0",
+                  "RuleType": "11",
+                  "ValidateMin": "1",
+                  "ValidateMax": "1",
+                  "ValidateSequence": "0"
+                },
+                {
+                  "StructureRuleID": "867",
+                  "Name": "Modification History - Landscape",
+                  "AllowedObjects": {
+                    "Relation": { "ID": "513614" }
+                  },
+                  "ExampleObjectID": "0",
+                  "RuleType": "11",
+                  "ValidateMin": "0",
+                  "ValidateMax": "-1",
+                  "ValidateSequence": "1"
+                },
+                {
+                  "StructureRuleID": "868",
+                  "Name": "Modification History - Portrait",
+                  "AllowedObjects": {
+                    "Relation": { "ID": "513614" }
+                  },
+                  "ExampleObjectID": "0",
+                  "RuleType": "11",
+                  "ValidateMin": "0",
+                  "ValidateMax": "-1",
+                  "ValidateSequence": "1"
+                },
+                {
+                  "StructureRuleID": "869",
+                  "Name": "Application Topic rule",
+                  "AllowedObjects": {
+                    "Relation": { "ID": "513615" }
+                  },
+                  "ExampleObjectID": "0",
+                  "RuleType": "11",
+                  "ValidateMin": "1",
+                  "ValidateMax": "1",
+                  "ValidateSequence": "0"
+                },
+                {
+                  "StructureRuleID": "870",
+                  "Name": "Application - Landscape",
+                  "AllowedObjects": {
+                    "Relation": { "ID": "513614" }
+                  },
+                  "ExampleObjectID": "0",
+                  "RuleType": "11",
+                  "ValidateMin": "0",
+                  "ValidateMax": "-1",
+                  "ValidateSequence": "1"
+                },
+                {
+                  "StructureRuleID": "871",
+                  "Name": "Application - Portrait",
+                  "AllowedObjects": {
+                    "Relation": { "ID": "513614" }
+                  },
+                  "ExampleObjectID": "0",
+                  "RuleType": "11",
+                  "ValidateMin": "0",
+                  "ValidateMax": "-1",
+                  "ValidateSequence": "1"
+                },
+                {
+                  "StructureRuleID": "872",
+                  "Name": "Pre-requisite Unit Topic rule",
+                  "AllowedObjects": {
+                    "Relation": { "ID": "513630" }
+                  },
+                  "ExampleObjectID": "0",
+                  "RuleType": "11",
+                  "ValidateMin": "0",
+                  "ValidateMax": "1",
+                  "ValidateSequence": "0"
+                },
+                {
+                  "StructureRuleID": "873",
+                  "Name": "Pre-requisite Unit - Landscape",
+                  "AllowedObjects": {
+                    "Relation": { "ID": "513614" }
+                  },
+                  "ExampleObjectID": "0",
+                  "RuleType": "11",
+                  "ValidateMin": "0",
+                  "ValidateMax": "-1",
+                  "ValidateSequence": "1"
+                },
+                {
+                  "StructureRuleID": "874",
+                  "Name": "Pre-requisite Unit - Portrait",
+                  "AllowedObjects": {
+                    "Relation": { "ID": "513614" }
+                  },
+                  "ExampleObjectID": "0",
+                  "RuleType": "11",
+                  "ValidateMin": "0",
+                  "ValidateMax": "-1",
+                  "ValidateSequence": "1"
+                },
+                {
+                  "StructureRuleID": "875",
+                  "Name": "Competency Field Topic rule",
+                  "AllowedObjects": {
+                    "Relation": { "ID": "513617" }
+                  },
+                  "ExampleObjectID": "0",
+                  "RuleType": "11",
+                  "ValidateMin": "0",
+                  "ValidateMax": "1",
+                  "ValidateSequence": "0"
+                },
+                {
+                  "StructureRuleID": "876",
+                  "Name": "Competency Field - Landscape",
+                  "AllowedObjects": {
+                    "Relation": { "ID": "513614" }
+                  },
+                  "ExampleObjectID": "0",
+                  "RuleType": "11",
+                  "ValidateMin": "0",
+                  "ValidateMax": "-1",
+                  "ValidateSequence": "1"
+                },
+                {
+                  "StructureRuleID": "877",
+                  "Name": "Competency Field - Portrait",
+                  "AllowedObjects": {
+                    "Relation": { "ID": "513614" }
+                  },
+                  "ExampleObjectID": "0",
+                  "RuleType": "11",
+                  "ValidateMin": "0",
+                  "ValidateMax": "-1",
+                  "ValidateSequence": "1"
+                },
+                {
+                  "StructureRuleID": "878",
+                  "Name": "Unit Sector Topic rule",
+                  "AllowedObjects": {
+                    "Relation": { "ID": "513634" }
+                  },
+                  "ExampleObjectID": "0",
+                  "RuleType": "11",
+                  "ValidateMin": "0",
+                  "ValidateMax": "1",
+                  "ValidateSequence": "0"
+                },
+                {
+                  "StructureRuleID": "879",
+                  "Name": "Unit Sector - Landscape",
+                  "AllowedObjects": {
+                    "Relation": { "ID": "513614" }
+                  },
+                  "ExampleObjectID": "0",
+                  "RuleType": "11",
+                  "ValidateMin": "0",
+                  "ValidateMax": "-1",
+                  "ValidateSequence": "1"
+                },
+                {
+                  "StructureRuleID": "880",
+                  "Name": "Unit Sector - Portrait",
+                  "AllowedObjects": {
+                    "Relation": { "ID": "513614" }
+                  },
+                  "ExampleObjectID": "0",
+                  "RuleType": "11",
+                  "ValidateMin": "0",
+                  "ValidateMax": "-1",
+                  "ValidateSequence": "1"
+                },
+                {
+                  "StructureRuleID": "881",
+                  "Name": "Element Topic rule",
+                  "AllowedObjects": {
+                    "Relation": { "ID": "513620" }
+                  },
+                  "ExampleObjectID": "0",
+                  "RuleType": "11",
+                  "ValidateMin": "1",
+                  "ValidateMax": "1",
+                  "ValidateSequence": "0"
+                },
+                {
+                  "StructureRuleID": "882",
+                  "Name": "Element - Landscape",
+                  "AllowedObjects": {
+                    "Relation": { "ID": "513614" }
+                  },
+                  "ExampleObjectID": "0",
+                  "RuleType": "11",
+                  "ValidateMin": "0",
+                  "ValidateMax": "-1",
+                  "ValidateSequence": "1"
+                },
+                {
+                  "StructureRuleID": "883",
+                  "Name": "Element - Portrait",
+                  "AllowedObjects": {
+                    "Relation": { "ID": "513614" }
+                  },
+                  "ExampleObjectID": "0",
+                  "RuleType": "11",
+                  "ValidateMin": "0",
+                  "ValidateMax": "-1",
+                  "ValidateSequence": "1"
+                },
+                {
+                  "StructureRuleID": "884",
+                  "Name": "Foundation Skills Topic rule",
+                  "AllowedObjects": {
+                    "Relation": { "ID": "513622" }
+                  },
+                  "ExampleObjectID": "0",
+                  "RuleType": "11",
+                  "ValidateMin": "1",
+                  "ValidateMax": "1",
+                  "ValidateSequence": "0"
+                },
+                {
+                  "StructureRuleID": "885",
+                  "Name": "Foundation Skills - Landscape",
+                  "AllowedObjects": {
+                    "Relation": { "ID": "513614" }
+                  },
+                  "ExampleObjectID": "0",
+                  "RuleType": "11",
+                  "ValidateMin": "0",
+                  "ValidateMax": "-1",
+                  "ValidateSequence": "1"
+                },
+                {
+                  "StructureRuleID": "886",
+                  "Name": "Foundation Skills - Portrait",
+                  "AllowedObjects": {
+                    "Relation": { "ID": "513614" }
+                  },
+                  "ExampleObjectID": "0",
+                  "RuleType": "11",
+                  "ValidateMin": "0",
+                  "ValidateMax": "-1",
+                  "ValidateSequence": "1"
+                },
+                {
+                  "StructureRuleID": "887",
+                  "Name": "Range of Conditions Topic rule",
+                  "AllowedObjects": {
+                    "Relation": { "ID": "513631" }
+                  },
+                  "ExampleObjectID": "0",
+                  "RuleType": "11",
+                  "ValidateMin": "0",
+                  "ValidateMax": "1",
+                  "ValidateSequence": "0"
+                },
+                {
+                  "StructureRuleID": "888",
+                  "Name": "Range of Conditions - Landscape",
+                  "AllowedObjects": {
+                    "Relation": { "ID": "513614" }
+                  },
+                  "ExampleObjectID": "0",
+                  "RuleType": "11",
+                  "ValidateMin": "0",
+                  "ValidateMax": "-1",
+                  "ValidateSequence": "1"
+                },
+                {
+                  "StructureRuleID": "889",
+                  "Name": "Range of Conditions - Portrait",
+                  "AllowedObjects": {
+                    "Relation": { "ID": "513614" }
+                  },
+                  "ExampleObjectID": "0",
+                  "RuleType": "11",
+                  "ValidateMin": "0",
+                  "ValidateMax": "-1",
+                  "ValidateSequence": "1"
+                },
+                {
+                  "StructureRuleID": "890",
+                  "Name": "Mapping information Topic rule",
+                  "AllowedObjects": {
+                    "Relation": { "ID": "513626" }
+                  },
+                  "ExampleObjectID": "0",
+                  "RuleType": "11",
+                  "ValidateMin": "1",
+                  "ValidateMax": "1",
+                  "ValidateSequence": "0"
+                },
+                {
+                  "StructureRuleID": "891",
+                  "Name": "Mapping information - Landscape",
+                  "AllowedObjects": {
+                    "Relation": { "ID": "513614" }
+                  },
+                  "ExampleObjectID": "0",
+                  "RuleType": "11",
+                  "ValidateMin": "0",
+                  "ValidateMax": "-1",
+                  "ValidateSequence": "1"
+                },
+                {
+                  "StructureRuleID": "892",
+                  "Name": "Mapping information - Portrait",
+                  "AllowedObjects": {
+                    "Relation": { "ID": "513614" }
+                  },
+                  "ExampleObjectID": "0",
+                  "RuleType": "11",
+                  "ValidateMin": "0",
+                  "ValidateMax": "-1",
+                  "ValidateSequence": "1"
+                },
+                {
+                  "StructureRuleID": "893",
+                  "Name": "Links rule",
+                  "AllowedObjects": {
+                    "Relation": { "ID": "513625" }
+                  },
+                  "ExampleObjectID": "0",
+                  "RuleType": "11",
+                  "ValidateMin": "1",
+                  "ValidateMax": "1",
+                  "ValidateSequence": "0"
+                }
+              ]
+            }
+          },
+          "VariableAssignments": {
+            "VariableAssignment": [
+              {
+                "ID": "34",
+                "Name": "Code",
+                "ValueObject": "0",
+                "Style": "-1",
+                "PublishPrompt": "false"
+              },
+              {
+                "ID": "27",
+                "Name": "Currency",
+                "Value": "Current",
+                "ValueObject": "0",
+                "Style": "-1",
+                "PublishPrompt": "false"
+              },
+              {
+                "ID": "64",
+                "Name": "HISTCOMMENT",
+                "ValueObject": "0",
+                "Style": "0",
+                "PublishPrompt": "false"
+              },
+              {
+                "ID": "37",
+                "Name": "ReleaseName",
+                "ValueObject": "0",
+                "Style": "-1",
+                "PublishPrompt": "false"
+              },
+              {
+                "ID": "42",
+                "Name": "ReleaseNumber",
+                "ValueObject": "0",
+                "Style": "-1",
+                "PublishPrompt": "false"
+              },
+              {
+                "ID": "38",
+                "Name": "ResponsibleTrainingPackageDeveloper",
+                "ValueObject": "0",
+                "Style": "-1",
+                "PublishPrompt": "false"
+              },
+              {
+                "ID": "25",
+                "Name": "StatusComponent",
+                "Value": "Unofficial",
+                "ValueObject": "0",
+                "Style": "-1",
+                "PublishPrompt": "false"
+              },
+              {
+                "ID": "58",
+                "Name": "StatusRelease",
+                "Value": "draft",
+                "ValueObject": "0",
+                "Style": "-1",
+                "PublishPrompt": "false"
+              },
+              {
+                "ID": "39",
+                "Name": "Title",
+                "ValueObject": "0",
+                "Style": "-1",
+                "PublishPrompt": "false"
+              },
+              {
+                "ID": "53",
+                "Name": "TpcmsObjectType",
+                "Value": "StreamlineUnit",
+                "ValueObject": "0",
+                "Style": "-1",
+                "PublishPrompt": "false"
+              },
+              {
+                "ID": "46",
+                "Name": "UsageRecommendation",
+                "Value": "current",
+                "ValueObject": "0",
+                "Style": "-1",
+                "PublishPrompt": "false"
+              }
+            ]
+          },
+          "PrintByLine": {
+            "-inherit": "true",
+            "#text": "<ResponsibleTrainingPackageDeveloper>"
+          },
+          "PrintTitle": {
+            "-inherit": "true",
+            "#text": "<Code> <Title>"
+          },
+          "PrintSubTitle": {
+            "-inherit": "true",
+            "#text": "Review Date: <Rdate>"
+          },
+          "PrintSuperTitle": {
+            "-inherit": "true",
+            "#text": "<SYS_STATEID>"
+          },
+          "PrintVersion": {
+            "-inherit": "true",
+            "#text": "Release: <ReleaseNumber>"
+          },
+          "HelpCompression": {
+            "-inherit": "true",
+            "#text": "0"
+          },
+          "HelpFileName": {
+            "-inherit": "true",
+            "#text": "Streamlined Unit Template"
+          },
+          "HelpMacro": {
+            "-inherit": "true",
+            "#text": "0"
+          },
+          "HelpTitle": {
+            "-inherit": "true",
+            "#text": "Streamlined Unit Template"
+          },
+          "HelpTopicOffset": {
+            "-inherit": "true",
+            "#text": "0"
+          },
+          "WebBaseFontSize": {
+            "-inherit": "true",
+            "#text": "12"
+          },
+          "WebTitle": {
+            "-inherit": "true",
+            "#text": "Streamlined Unit Template"
+          }
+        },
+        {
+          "Object": {
+            "BasedOn": "513641",
+            "CreatedBy": "(supervisor)",
+            "CreatedDate": "2014-10-06T16:15:21",
+            "Description": "ICTPRG507 Implement security for applications (Release 1)",
+            "FolderID": "87125",
+            "GUID": "087c3aae3a6444639b27e5140c1c295c",
+            "ID": "672387",
+            "IncludeInHelp": {
+              "-inherited": "true",
+              "#text": "true"
+            },
+            "IncludeInPrint": {
+              "-inherited": "true",
+              "#text": "true"
+            },
+            "IncludeInWeb": {
+              "-inherited": "true",
+              "#text": "true"
+            },
+            "IsTemplate": "false",
+            "Key": "672387",
+            "LocalizationID": "0",
+            "ModifiedID": "3307426",
+            "ModifiedBy": "(supervisor)",
+            "ModifiedDate": "2015-03-25T17:51:57",
+            "ReleaseStateID": "6",
+            "Status": "1",
+            "Type": "Book",
+            "Version": "1",
+            "VariantParentID": "0",
+            "LocID": "1"
+          },
+          "ContentsNodes": {
+            "Node": [
+              { "-id": "672388" },
+              { "-id": "672389" },
+              { "-id": "672392" },
+              { "-id": "672393" },
+              { "-id": "672405" },
+              { "-id": "672396" },
+              { "-id": "672403" }
+            ]
+          },
+          "VariableAssignments": {
+            "VariableAssignment": [
+              {
+                "ID": "34",
+                "Name": "Code",
+                "Value": "ICTPRG507",
+                "ValueObject": "0",
+                "Style": "-1",
+                "PublishPrompt": "false"
+              },
+              {
+                "ID": "27",
+                "Name": "Currency",
+                "Value": "Current",
+                "ValueObject": "0",
+                "Style": "-1",
+                "PublishPrompt": "false"
+              },
+              {
+                "ID": "64",
+                "Name": "HISTCOMMENT",
+                "ValueObject": "0",
+                "Style": "0",
+                "PublishPrompt": "false"
+              },
+              {
+                "ID": "37",
+                "Name": "ReleaseName",
+                "Value": "Release 1",
+                "ValueObject": "0",
+                "Style": "-1",
+                "PublishPrompt": "false"
+              },
+              {
+                "ID": "42",
+                "Name": "ReleaseNumber",
+                "Value": "1",
+                "ValueObject": "0",
+                "Style": "-1",
+                "PublishPrompt": "false"
+              },
+              {
+                "ID": "38",
+                "Name": "ResponsibleTrainingPackageDeveloper",
+                "Value": "Innovation and Business Skills Australia",
+                "ValueObject": "0",
+                "Style": "-1",
+                "PublishPrompt": "false"
+              },
+              {
+                "ID": "25",
+                "Name": "StatusComponent",
+                "Value": "Unofficial",
+                "ValueObject": "0",
+                "Style": "-1",
+                "PublishPrompt": "false"
+              },
+              {
+                "ID": "58",
+                "Name": "StatusRelease",
+                "Value": "Approved",
+                "ValueObject": "0",
+                "Style": "-1",
+                "PublishPrompt": "false"
+              },
+              {
+                "ID": "39",
+                "Name": "Title",
+                "Value": "Implement security for applications",
+                "ValueObject": "0",
+                "Style": "-1",
+                "PublishPrompt": "false"
+              },
+              {
+                "ID": "53",
+                "Name": "TpcmsObjectType",
+                "Value": "StreamlineUnit",
+                "ValueObject": "0",
+                "Style": "-1",
+                "PublishPrompt": "false"
+              },
+              {
+                "ID": "46",
+                "Name": "UsageRecommendation",
+                "Value": "current",
+                "ValueObject": "0",
+                "Style": "-1",
+                "PublishPrompt": "false"
+              }
+            ]
+          },
+          "PrintByLine": {
+            "-inherited": "true",
+            "#text": "<ResponsibleTrainingPackageDeveloper>"
+          },
+          "PrintTitle": {
+            "-inherited": "true",
+            "#text": "<Code> <Title>"
+          },
+          "PrintSubTitle": {
+            "-inherited": "true",
+            "#text": "Review Date: <Rdate>"
+          },
+          "PrintSuperTitle": {
+            "-inherited": "true",
+            "#text": "<SYS_STATEID>"
+          },
+          "PrintVersion": {
+            "-inherited": "true",
+            "#text": "Release: <ReleaseNumber>"
+          },
+          "HelpCompression": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpFileName": {
+            "-inherited": "true",
+            "#text": "Streamlined Unit Template"
+          },
+          "HelpMacro": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpTitle": {
+            "-inherited": "true",
+            "#text": "Streamlined Unit Template"
+          },
+          "HelpTopicOffset": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "WebBaseFontSize": {
+            "-inherited": "true",
+            "#text": "12"
+          },
+          "WebTitle": {
+            "-inherited": "true",
+            "#text": "Streamlined Unit Template"
+          }
+        }
+      ],
+      "Media": [
+        {
+          "Object": {
+            "BasedOn": "0",
+            "CreatedBy": "(supervisor)",
+            "CreatedDate": "1997-06-16T00:00:00",
+            "Description": "Paper Size Template",
+            "FolderID": "4",
+            "GUID": "95F19D92906441ED9FB87594A521F8D3",
+            "ID": "33",
+            "IncludeInHelp": {
+              "-inherit": "true",
+              "#text": "false"
+            },
+            "IncludeInPrint": {
+              "-inherit": "true",
+              "#text": "true"
+            },
+            "IncludeInWeb": {
+              "-inherit": "true",
+              "#text": "true"
+            },
+            "IsTemplate": "true",
+            "Key": "33",
+            "LocalizationID": "0",
+            "ModifiedID": "475050",
+            "ModifiedBy": "(supervisor)",
+            "ModifiedDate": "2011-06-11T12:05:47",
+            "ReleaseStateID": "0",
+            "Status": "1",
+            "Type": "Media",
+            "Version": "1",
+            "VariantParentID": "0",
+            "LocID": "1"
+          },
+          "PrintDifferentFirst": "(don't inherit)",
+          "PrintDifferentOddEven": "(don't inherit)",
+          "PrintEvenFooter": "(don't inherit)",
+          "PrintEvenHeader": "(don't inherit)",
+          "PrintFirstFooter": "(don't inherit)",
+          "PrintFirstHeader": "(don't inherit)",
+          "PrintMarginBottom": {
+            "-inherit": "true",
+            "#text": "3"
+          },
+          "PrintMarginFooter": {
+            "-inherit": "true",
+            "#text": "1.75"
+          },
+          "PrintMarginGutter": "0",
+          "PrintMarginHeader": {
+            "-inherit": "true",
+            "#text": "1.75"
+          },
+          "PrintMarginLeft": "0",
+          "PrintMarginRight": {
+            "-inherit": "true",
+            "#text": "2.5"
+          },
+          "PrintMarginTop": {
+            "-inherit": "true",
+            "#text": "3"
+          },
+          "PrintMirrorMargins": "(don't inherit)",
+          "PrintNumColumns": "0",
+          "PrintOddFooter": "(don't inherit)",
+          "PrintOddHeader": "(don't inherit)",
+          "PrintOrientation": {
+            "-inherit": "true",
+            "#text": "1"
+          },
+          "PrintPageNumberFormat": "-1",
+          "PrintPageNumberStartFrom": {
+            "-inherit": "true",
+            "#text": "1"
+          },
+          "PrintPageNumberStartType": "0",
+          "PrintPaperSize": {
+            "-inherit": "true",
+            "#text": "5"
+          },
+          "PrintSectionStart": "-1",
+          "PrintSizeHeight": {
+            "-inherit": "true",
+            "#text": "29.7"
+          },
+          "PrintSizeWidth": {
+            "-inherit": "true",
+            "#text": "21"
+          },
+          "HelpAutoSize": "(don't inherit)",
+          "HelpBack": "(don't inherit)",
+          "HelpBrowse": "(don't inherit)",
+          "HelpColourHeading": "16777215",
+          "HelpColourTopic": "16777215",
+          "HelpContents": "(don't inherit)",
+          "HelpFind": "(don't inherit)",
+          "HelpHeight": "0",
+          "HelpIndex": "(don't inherit)",
+          "HelpKeepOnTop": "(don't inherit)",
+          "HelpLeft": "0",
+          "HelpMacro": "-1",
+          "HelpMaximise": "(don't inherit)",
+          "HelpOptions": "(don't inherit)",
+          "HelpPrintTopic": "(don't inherit)",
+          "HelpTop": "0",
+          "HelpTopics": "(don't inherit)",
+          "HelpWidth": "0",
+          "WebALinkColour": {
+            "-inherit": "true",
+            "#text": "3381759"
+          },
+          "WebBackColour": "16777215",
+          "WebBackImageNonScrolling": "(don't inherit)",
+          "WebBackSoundRepeat": "(don't inherit)",
+          "WebLinkColour": {
+            "-inherit": "true",
+            "#text": "10040115"
+          },
+          "WebTextColour": {
+            "-inherit": "true",
+            "#text": "0"
+          },
+          "WebVLinkColour": {
+            "-inherit": "true",
+            "#text": "6684825"
+          }
+        },
+        {
+          "Object": {
+            "BasedOn": "33",
+            "CreatedBy": "(supervisor)",
+            "CreatedDate": "1997-06-16T00:00:00",
+            "Description": "Portrait Section",
+            "FolderID": "5",
+            "GUID": "9CF5D3187E2049AF9F1FF1557B39C8D9",
+            "ID": "44",
+            "IncludeInHelp": {
+              "-inherited": "true",
+              "#text": "false"
+            },
+            "IncludeInPrint": {
+              "-inherited": "true",
+              "#text": "true"
+            },
+            "IncludeInWeb": {
+              "-inherited": "true",
+              "#text": "true"
+            },
+            "IsTemplate": "false",
+            "Key": "44",
+            "LocalizationID": "0",
+            "ModifiedID": "2090064",
+            "ModifiedBy": "(supervisor)",
+            "ModifiedDate": "2013-08-23T17:27:52",
+            "ReleaseStateID": "0",
+            "Status": "1",
+            "Type": "Media",
+            "Version": "1",
+            "VariantParentID": "0",
+            "LocID": "1"
+          },
+          "VariableAssignments": {
+            "VariableAssignment": {
+              "ID": "64",
+              "Name": "HISTCOMMENT",
+              "ValueObject": "0",
+              "Style": "0",
+              "PublishPrompt": "false"
+            }
+          },
+          "PrintDifferentFirst": "false",
+          "PrintDifferentOddEven": "false",
+          "PrintEvenFooter": "(none)",
+          "PrintEvenHeader": "HeaderEven",
+          "PrintFirstFooter": "(none)",
+          "PrintFirstHeader": "HeaderFirst",
+          "PrintMarginBottom": {
+            "-inherited": "true",
+            "#text": "3"
+          },
+          "PrintMarginFooter": {
+            "-inherited": "true",
+            "#text": "1.75"
+          },
+          "PrintMarginGutter": "0",
+          "PrintMarginHeader": {
+            "-inherited": "true",
+            "#text": "1.75"
+          },
+          "PrintMarginLeft": "2.5",
+          "PrintMarginRight": {
+            "-inherited": "true",
+            "#text": "2.5"
+          },
+          "PrintMarginTop": {
+            "-inherited": "true",
+            "#text": "3"
+          },
+          "PrintMirrorMargins": "false",
+          "PrintNumColumns": "1",
+          "PrintOddFooter": "Footer",
+          "PrintOddHeader": "Header",
+          "PrintOrientation": {
+            "-inherited": "true",
+            "#text": "1"
+          },
+          "PrintPageNumberFormat": "0",
+          "PrintPageNumberStartFrom": {
+            "-inherited": "true",
+            "#text": "1"
+          },
+          "PrintPageNumberStartType": "1",
+          "PrintPaperSize": {
+            "-inherited": "true",
+            "#text": "5"
+          },
+          "PrintSectionStart": "2",
+          "PrintSizeHeight": {
+            "-inherited": "true",
+            "#text": "29.7"
+          },
+          "PrintSizeWidth": {
+            "-inherited": "true",
+            "#text": "21"
+          },
+          "HelpAutoSize": "false",
+          "HelpBack": "true",
+          "HelpBrowse": "true",
+          "HelpColourHeading": "16777215",
+          "HelpColourTopic": "16777215",
+          "HelpContents": "true",
+          "HelpFind": "true",
+          "HelpHeight": "-1",
+          "HelpIndex": "true",
+          "HelpKeepOnTop": "true",
+          "HelpLeft": "-1",
+          "HelpMacro": "0",
+          "HelpMaximise": "true",
+          "HelpOptions": "true",
+          "HelpPrintTopic": "true",
+          "HelpTop": "-1",
+          "HelpTopics": "true",
+          "HelpWidth": "-1",
+          "HelpWindowName": "Normal",
+          "WebALinkColour": {
+            "-inherited": "true",
+            "#text": "3381759"
+          },
+          "WebBackColour": "16777215",
+          "WebBackImageNonScrolling": "false",
+          "WebBackSoundRepeat": "false",
+          "WebLinkColour": {
+            "-inherited": "true",
+            "#text": "10040115"
+          },
+          "WebTextColour": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "WebVLinkColour": {
+            "-inherited": "true",
+            "#text": "6684825"
+          }
+        }
+      ],
+      "Style": [
+        {
+          "Object": {
+            "BasedOn": "84",
+            "CreatedBy": "(supervisor)",
+            "CreatedDate": "1997-06-16T00:00:00",
+            "Description": "Body Template",
+            "FolderID": "4",
+            "GUID": "E7E18696B25B455182BECC3F678D471E",
+            "ID": "1",
+            "IncludeInHelp": "(don't inherit)",
+            "IncludeInPrint": "(don't inherit)",
+            "IncludeInWeb": "(don't inherit)",
+            "IsTemplate": "true",
+            "Key": "1",
+            "LocalizationID": "0",
+            "ModifiedID": "475052",
+            "ModifiedBy": "(supervisor)",
+            "ModifiedDate": "2011-06-11T12:05:47",
+            "ReleaseStateID": "0",
+            "Status": "1",
+            "Type": "Style",
+            "Version": "1",
+            "VariantParentID": "0",
+            "LocID": "1"
+          },
+          "BorderBottom": "(don't inherit)",
+          "BorderLeft": "(don't inherit)",
+          "BorderRight": "(don't inherit)",
+          "BorderStyle": "-1",
+          "BorderShadow": {
+            "-inherit": "true",
+            "#text": "false"
+          },
+          "BorderTop": "(don't inherit)",
+          "Bullet": "-1",
+          "FontBold": "(don't inherit)",
+          "FontColour": {
+            "-inherit": "true",
+            "#text": "0"
+          },
+          "FontItalics": "(don't inherit)",
+          "FontName": {
+            "-inherit": "true",
+            "#text": "Tahoma"
+          },
+          "FontSize": "0",
+          "FontUnderline": "-1",
+          "FontSubscript": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "false"
+          },
+          "FontSuperscript": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "false"
+          },
+          "Number": "-1",
+          "Numbering": "0",
+          "NumberStart": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "1"
+          },
+          "OutlineLevel": "0",
+          "ParaAfter": "0",
+          "ParaAlignment": "-1",
+          "ParaBefore": "0",
+          "ParaFirstLine": "0",
+          "ParaLeft": "0",
+          "ParaLineSpacing": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "1"
+          },
+          "ParaRight": "0",
+          "StyleType": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "1"
+          },
+          "TabDefault": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "2.5"
+          },
+          "HelpBorderBottom": "(don't inherit)",
+          "HelpBorderLeft": "(don't inherit)",
+          "HelpBorderRight": "(don't inherit)",
+          "HelpBorderShadow": "(don't inherit)",
+          "HelpBorderStyle": "-1",
+          "HelpBorderTop": "(don't inherit)",
+          "HelpBullet": "-1",
+          "HelpFontBold": "(don't inherit)",
+          "HelpFontColour": "16777215",
+          "HelpFontItalics": "(don't inherit)",
+          "HelpFontName": {
+            "-inherit": "true",
+            "#text": "Tahoma"
+          },
+          "HelpFontSize": "0",
+          "HelpNonWrapping": "(don't inherit)",
+          "HelpNumber": "-1",
+          "HelpNumbering": "0",
+          "HelpNumberStart": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "1"
+          },
+          "HelpParaAfter": "0",
+          "HelpParaAlignment": "-1",
+          "HelpParaBefore": "0",
+          "HelpParaFirstLine": "0",
+          "HelpParaLeft": "0",
+          "HelpParaLineSpacing": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "1"
+          },
+          "HelpParaRight": "0",
+          "HelpTabDefault": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "2.5"
+          },
+          "WebBackAttach": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "Scroll"
+          },
+          "WebBackColour": "16777215",
+          "WebBackPositionX": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "0 %"
+          },
+          "WebBackPositionY": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "0 %"
+          },
+          "WebBackRepeat": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "(none)"
+          },
+          "WebBackURL": { "-inherit": "true" },
+          "WebBorderColourBottom": "16777215",
+          "WebBorderColourLeft": "16777215",
+          "WebBorderColourRight": "16777215",
+          "WebBorderColourTop": "16777215",
+          "WebBorderStyleBottom": "(don't inherit)",
+          "WebBorderStyleLeft": "(don't inherit)",
+          "WebBorderStyleRight": "(don't inherit)",
+          "WebBorderStyleTop": "(don't inherit)",
+          "WebBorderWidthBottom": "(don't inherit)",
+          "WebBorderWidthLeft": "(don't inherit)",
+          "WebBorderWidthRight": "(don't inherit)",
+          "WebBorderWidthTop": "(don't inherit)",
+          "WebBlockTag": "(don't inherit)",
+          "WebBulletStyle": "(don't inherit)",
+          "WebClear": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "(none)"
+          },
+          "WebFloat": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "(none)"
+          },
+          "WebFontColour": "16777215",
+          "WebFontName": {
+            "-inherit": "true",
+            "#text": "Tahoma"
+          },
+          "WebFontSize": "(don't inherit)",
+          "WebFontStyle": "(don't inherit)",
+          "WebFontVariant": {
+            "-inherit": "true",
+            "#text": "(normal)"
+          },
+          "WebFontWeight": "(don't inherit)",
+          "WebHeight": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "(auto)"
+          },
+          "WebLetterSpacing": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "(normal)"
+          },
+          "WebNumbering": "0",
+          "WebNumberStyle": "(don't inherit)",
+          "WebTextAlign": "(don't inherit)",
+          "WebTextDecoration": {
+            "-inherit": "true",
+            "#text": "(none)"
+          },
+          "WebTextTag": "(don't inherit)",
+          "WebTextTransform": {
+            "-inherit": "true",
+            "#text": "(none)"
+          },
+          "WebVerticalAlign": "(don't inherit)",
+          "WebWhiteSpace": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "(normal)"
+          },
+          "WebWordSpacing": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "(normal)"
+          }
+        },
+        {
+          "Object": {
+            "BasedOn": "84",
+            "CreatedBy": "(supervisor)",
+            "CreatedDate": "1997-06-16T00:00:00",
+            "Description": "List Template",
+            "FolderID": "4",
+            "GUID": "B31460772B99445B841BE96613F32B92",
+            "ID": "3",
+            "IncludeInHelp": {
+              "-inherit": "true",
+              "#text": "true"
+            },
+            "IncludeInPrint": {
+              "-inherit": "true",
+              "#text": "true"
+            },
+            "IncludeInWeb": {
+              "-inherit": "true",
+              "#text": "true"
+            },
+            "IsTemplate": "true",
+            "Key": "3",
+            "LocalizationID": "0",
+            "ModifiedID": "173",
+            "ModifiedBy": "(supervisor)",
+            "ModifiedDate": "2009-05-20T12:43:30",
+            "ReleaseStateID": "0",
+            "Status": "1",
+            "Type": "Style",
+            "Version": "1",
+            "VariantParentID": "0",
+            "LocID": "1"
+          },
+          "BorderBottom": "(don't inherit)",
+          "BorderLeft": "(don't inherit)",
+          "BorderRight": "(don't inherit)",
+          "BorderStyle": "-1",
+          "BorderShadow": {
+            "-inherit": "true",
+            "#text": "false"
+          },
+          "BorderTop": "(don't inherit)",
+          "Bullet": "-1",
+          "FontBold": "(don't inherit)",
+          "FontColour": {
+            "-inherit": "true",
+            "#text": "0"
+          },
+          "FontItalics": "(don't inherit)",
+          "FontName": {
+            "-inherit": "true",
+            "#text": "Tahoma"
+          },
+          "FontSize": "0",
+          "FontUnderline": {
+            "-inherit": "true",
+            "#text": "0"
+          },
+          "FontSubscript": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "false"
+          },
+          "FontSuperscript": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "false"
+          },
+          "Number": "-1",
+          "Numbering": "0",
+          "NumberStart": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "1"
+          },
+          "OutlineLevel": "0",
+          "ParaAfter": "0",
+          "ParaAlignment": {
+            "-inherit": "true",
+            "#text": "0"
+          },
+          "ParaBefore": "0",
+          "ParaFirstLine": "0",
+          "ParaLeft": "0",
+          "ParaLineSpacing": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "1"
+          },
+          "ParaRight": "0",
+          "StyleType": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "1"
+          },
+          "TabDefault": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "2.5"
+          },
+          "HelpBorderBottom": "(don't inherit)",
+          "HelpBorderLeft": "(don't inherit)",
+          "HelpBorderRight": "(don't inherit)",
+          "HelpBorderShadow": "(don't inherit)",
+          "HelpBorderStyle": "-1",
+          "HelpBorderTop": "(don't inherit)",
+          "HelpBullet": "-1",
+          "HelpFontBold": "(don't inherit)",
+          "HelpFontColour": {
+            "-inherit": "true",
+            "#text": "0"
+          },
+          "HelpFontItalics": "(don't inherit)",
+          "HelpFontName": {
+            "-inherit": "true",
+            "#text": "Tahoma"
+          },
+          "HelpFontSize": {
+            "-inherit": "true",
+            "#text": "8"
+          },
+          "HelpNonWrapping": "(don't inherit)",
+          "HelpNumber": "-1",
+          "HelpNumbering": "0",
+          "HelpNumberStart": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "1"
+          },
+          "HelpParaAfter": "0",
+          "HelpParaAlignment": {
+            "-inherit": "true",
+            "#text": "0"
+          },
+          "HelpParaBefore": "0",
+          "HelpParaFirstLine": "0",
+          "HelpParaLeft": "0",
+          "HelpParaLineSpacing": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "1"
+          },
+          "HelpParaRight": {
+            "-inherit": "true",
+            "#text": "0.2"
+          },
+          "HelpTabDefault": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "2.5"
+          },
+          "WebBackAttach": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "Scroll"
+          },
+          "WebBackColour": "16777215",
+          "WebBackPositionX": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "0 %"
+          },
+          "WebBackPositionY": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "0 %"
+          },
+          "WebBackRepeat": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "(none)"
+          },
+          "WebBackURL": { "-inherit": "true" },
+          "WebBorderColourBottom": {
+            "-inherit": "true",
+            "#text": "0"
+          },
+          "WebBorderColourLeft": {
+            "-inherit": "true",
+            "#text": "0"
+          },
+          "WebBorderColourRight": {
+            "-inherit": "true",
+            "#text": "0"
+          },
+          "WebBorderColourTop": {
+            "-inherit": "true",
+            "#text": "0"
+          },
+          "WebBorderStyleBottom": "(don't inherit)",
+          "WebBorderStyleLeft": "(don't inherit)",
+          "WebBorderStyleRight": "(don't inherit)",
+          "WebBorderStyleTop": "(don't inherit)",
+          "WebBorderWidthBottom": "(don't inherit)",
+          "WebBorderWidthLeft": "(don't inherit)",
+          "WebBorderWidthRight": "(don't inherit)",
+          "WebBorderWidthTop": "(don't inherit)",
+          "WebBlockTag": "(don't inherit)",
+          "WebBulletStyle": "(don't inherit)",
+          "WebClear": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "(none)"
+          },
+          "WebFloat": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "(none)"
+          },
+          "WebFontColour": {
+            "-inherit": "true",
+            "#text": "0"
+          },
+          "WebFontName": {
+            "-inherit": "true",
+            "#text": "Tahoma"
+          },
+          "WebFontSize": {
+            "-inherit": "true",
+            "#text": "10 pt"
+          },
+          "WebFontStyle": "(don't inherit)",
+          "WebFontVariant": {
+            "-inherit": "true",
+            "#text": "(normal)"
+          },
+          "WebFontWeight": {
+            "-inherit": "true",
+            "#text": "(normal)"
+          },
+          "WebHeight": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "(auto)"
+          },
+          "WebLetterSpacing": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "(normal)"
+          },
+          "WebLineHeight": {
+            "-inherit": "true",
+            "#text": "(normal)"
+          },
+          "WebNumbering": "0",
+          "WebNumberStyle": "(don't inherit)",
+          "WebTextAlign": {
+            "-inherit": "true",
+            "#text": "Left"
+          },
+          "WebTextDecoration": {
+            "-inherit": "true",
+            "#text": "(none)"
+          },
+          "WebTextIndent": {
+            "-inherit": "true",
+            "#text": "0 cm"
+          },
+          "WebTextTag": {
+            "-inherit": "true",
+            "#text": "(none)"
+          },
+          "WebTextTransform": {
+            "-inherit": "true",
+            "#text": "(none)"
+          },
+          "WebVerticalAlign": {
+            "-inherit": "true",
+            "#text": "Baseline"
+          },
+          "WebWhiteSpace": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "(normal)"
+          },
+          "WebWidth": {
+            "-inherit": "true",
+            "#text": "(auto)"
+          },
+          "WebWordSpacing": {
+            "-inherited": "true",
+            "-inherit": "true",
+            "#text": "(normal)"
+          }
+        },
+        {
+          "Object": {
+            "BasedOn": "1",
+            "CreatedBy": "(supervisor)",
+            "CreatedDate": "1997-06-16T00:00:00",
+            "Description": "Body Text",
+            "FolderID": "15",
+            "GUID": "5184F1C710034328BA8F61D4252691E9",
+            "ID": "4",
+            "IncludeInHelp": "true",
+            "IncludeInPrint": "true",
+            "IncludeInWeb": "true",
+            "IsTemplate": "false",
+            "Key": "4",
+            "LocalizationID": "0",
+            "ModifiedID": "475053",
+            "ModifiedBy": "(supervisor)",
+            "ModifiedDate": "2011-06-11T12:05:48",
+            "ReleaseStateID": "0",
+            "Status": "1",
+            "Type": "Style",
+            "Version": "1",
+            "VariantParentID": "0",
+            "LocID": "1"
+          },
+          "BorderBottom": "false",
+          "BorderLeft": "false",
+          "BorderRight": "false",
+          "BorderStyle": "0",
+          "BorderShadow": "false",
+          "BorderTop": "false",
+          "Bullet": "0",
+          "FontBold": "false",
+          "FontColour": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "FontItalics": "false",
+          "FontName": {
+            "-inherited": "true",
+            "#text": "Tahoma"
+          },
+          "FontSize": "10",
+          "FontUnderline": "0",
+          "FontSubscript": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "FontSuperscript": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "Number": "0",
+          "Numbering": "1",
+          "NumberStart": {
+            "-inherited": "true",
+            "#text": "1"
+          },
+          "OutlineLevel": "0",
+          "ParaAfter": "6",
+          "ParaAlignment": "0",
+          "ParaBefore": "6",
+          "ParaFirstLine": "0",
+          "ParaLeft": "0",
+          "ParaLineSpacing": {
+            "-inherited": "true",
+            "#text": "1"
+          },
+          "ParaRight": "0",
+          "StyleName": "Body Text",
+          "StyleType": {
+            "-inherited": "true",
+            "#text": "1"
+          },
+          "TabDefault": {
+            "-inherited": "true",
+            "#text": "2.5"
+          },
+          "PrintStyleName": "Body Text",
+          "HelpBorderBottom": "false",
+          "HelpBorderLeft": "false",
+          "HelpBorderRight": "false",
+          "HelpBorderShadow": "false",
+          "HelpBorderStyle": "0",
+          "HelpBorderTop": "false",
+          "HelpBullet": "0",
+          "HelpFontBold": "false",
+          "HelpFontColour": "0",
+          "HelpFontItalics": "false",
+          "HelpFontName": {
+            "-inherited": "true",
+            "#text": "Tahoma"
+          },
+          "HelpFontSize": "8",
+          "HelpNonWrapping": "false",
+          "HelpNumber": "0",
+          "HelpNumbering": "1",
+          "HelpNumberStart": {
+            "-inherited": "true",
+            "#text": "1"
+          },
+          "HelpParaAfter": "0",
+          "HelpParaAlignment": "0",
+          "HelpParaBefore": "4",
+          "HelpParaFirstLine": "0",
+          "HelpParaLeft": "0.2",
+          "HelpParaLineSpacing": {
+            "-inherited": "true",
+            "#text": "1"
+          },
+          "HelpParaRight": "0.2",
+          "HelpTabDefault": {
+            "-inherited": "true",
+            "#text": "2.5"
+          },
+          "WebBackAttach": {
+            "-inherited": "true",
+            "#text": "Scroll"
+          },
+          "WebBackColour": "16777215",
+          "WebBackPositionX": {
+            "-inherited": "true",
+            "#text": "0 %"
+          },
+          "WebBackPositionY": {
+            "-inherited": "true",
+            "#text": "0 %"
+          },
+          "WebBackRepeat": {
+            "-inherited": "true",
+            "#text": "(none)"
+          },
+          "WebBackURL": { "-inherited": "true" },
+          "WebBorderColourBottom": "0",
+          "WebBorderColourLeft": "0",
+          "WebBorderColourRight": "0",
+          "WebBorderColourTop": "0",
+          "WebBorderStyleBottom": "(none)",
+          "WebBorderStyleLeft": "(none)",
+          "WebBorderStyleRight": "(none)",
+          "WebBorderStyleTop": "(none)",
+          "WebBorderWidthBottom": "Medium",
+          "WebBorderWidthLeft": "Medium",
+          "WebBorderWidthRight": "Medium",
+          "WebBorderWidthTop": "Medium",
+          "WebBlockTag": "P - Paragraph",
+          "WebBulletStyle": "Disc",
+          "WebClear": {
+            "-inherited": "true",
+            "#text": "(none)"
+          },
+          "WebFloat": {
+            "-inherited": "true",
+            "#text": "(none)"
+          },
+          "WebFontColour": "0",
+          "WebFontName": {
+            "-inherited": "true",
+            "#text": "Tahoma"
+          },
+          "WebFontSize": "10 pt",
+          "WebFontStyle": "(normal)",
+          "WebFontVariant": {
+            "-inherited": "true",
+            "#text": "(normal)"
+          },
+          "WebFontWeight": "(normal)",
+          "WebHeight": {
+            "-inherited": "true",
+            "#text": "(auto)"
+          },
+          "WebLetterSpacing": {
+            "-inherited": "true",
+            "#text": "(normal)"
+          },
+          "WebLineHeight": "(normal)",
+          "WebMarginBottom": "6 pt",
+          "WebMarginLeft": "0 pt",
+          "WebMarginRight": "0 pt",
+          "WebMarginTop": "6 pt",
+          "WebNumbering": "1",
+          "WebNumberStyle": "Decimal",
+          "WebPaddingBottom": "0 pt",
+          "WebPaddingLeft": "0 pt",
+          "WebPaddingRight": "0 pt",
+          "WebPaddingTop": "0 pt",
+          "WebTextAlign": "Left",
+          "WebTextDecoration": {
+            "-inherited": "true",
+            "#text": "(none)"
+          },
+          "WebTextIndent": "0 cm",
+          "WebTextTag": "(none)",
+          "WebTextTransform": {
+            "-inherited": "true",
+            "#text": "(none)"
+          },
+          "WebVerticalAlign": "Baseline",
+          "WebWhiteSpace": {
+            "-inherited": "true",
+            "#text": "(normal)"
+          },
+          "WebWidth": "(auto)",
+          "WebWordSpacing": {
+            "-inherited": "true",
+            "#text": "(normal)"
+          }
+        },
+        {
+          "Object": {
+            "BasedOn": "83",
+            "CreatedBy": "(supervisor)",
+            "CreatedDate": "1997-06-16T00:00:00",
+            "Description": "Emphasis",
+            "FolderID": "16",
+            "GUID": "21FDEC8DAAC84D82821F924C93261D5A",
+            "ID": "7",
+            "IncludeInHelp": "true",
+            "IncludeInPrint": "true",
+            "IncludeInWeb": "true",
+            "IsTemplate": "false",
+            "Key": "7",
+            "LocalizationID": "0",
+            "ModifiedID": "111",
+            "ModifiedBy": "(supervisor)",
+            "ModifiedDate": "2007-09-16T12:46:41",
+            "ReleaseStateID": "0",
+            "Status": "1",
+            "Type": "Style",
+            "Version": "1",
+            "VariantParentID": "0",
+            "LocID": "1"
+          },
+          "BorderBottom": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "BorderLeft": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "BorderRight": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "BorderStyle": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "BorderShadow": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "BorderTop": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "Bullet": "0",
+          "FontBold": "(don't inherit)",
+          "FontColour": "16777215",
+          "FontItalics": "true",
+          "FontName": "(don't inherit)",
+          "FontSize": "0",
+          "FontUnderline": "0",
+          "FontSubscript": "(don't inherit)",
+          "FontSuperscript": "(don't inherit)",
+          "Number": {
+            "-inherited": "true",
+            "#text": "1"
+          },
+          "Numbering": {
+            "-inherited": "true",
+            "#text": "1"
+          },
+          "NumberStart": {
+            "-inherited": "true",
+            "#text": "1"
+          },
+          "OutlineLevel": "0",
+          "ParaAfter": "0",
+          "ParaAlignment": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "ParaBefore": "0",
+          "ParaFirstLine": "0",
+          "ParaLeft": "0",
+          "ParaLineSpacing": "0",
+          "ParaRight": "0",
+          "StyleName": "Emphasis",
+          "StyleType": {
+            "-inherited": "true",
+            "#text": "2"
+          },
+          "TabDefault": {
+            "-inherited": "true",
+            "#text": "2.5"
+          },
+          "PrintStyleName": "Emphasis",
+          "HelpBorderBottom": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "HelpBorderLeft": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "HelpBorderRight": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "HelpBorderShadow": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "HelpBorderStyle": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpBorderTop": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "HelpBullet": "0",
+          "HelpFontBold": "(don't inherit)",
+          "HelpFontColour": "16777215",
+          "HelpFontItalics": "true",
+          "HelpFontName": "(don't inherit)",
+          "HelpFontSize": "0",
+          "HelpNonWrapping": "(don't inherit)",
+          "HelpNumber": {
+            "-inherited": "true",
+            "#text": "1"
+          },
+          "HelpNumbering": {
+            "-inherited": "true",
+            "#text": "1"
+          },
+          "HelpNumberStart": {
+            "-inherited": "true",
+            "#text": "1"
+          },
+          "HelpParaAfter": "0",
+          "HelpParaAlignment": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpParaBefore": "0",
+          "HelpParaFirstLine": "0",
+          "HelpParaLeft": "0",
+          "HelpParaLineSpacing": "0",
+          "HelpParaRight": "0",
+          "HelpTabDefault": {
+            "-inherited": "true",
+            "#text": "2"
+          },
+          "WebBackAttach": {
+            "-inherited": "true",
+            "#text": "Scroll"
+          },
+          "WebBackColour": "16777215",
+          "WebBackPositionX": {
+            "-inherited": "true",
+            "#text": "0 %"
+          },
+          "WebBackPositionY": {
+            "-inherited": "true",
+            "#text": "0 %"
+          },
+          "WebBackRepeat": {
+            "-inherited": "true",
+            "#text": "(none)"
+          },
+          "WebBorderColourBottom": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "WebBorderColourLeft": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "WebBorderColourRight": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "WebBorderColourTop": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "WebBorderStyleBottom": {
+            "-inherited": "true",
+            "#text": "(none)"
+          },
+          "WebBorderStyleLeft": {
+            "-inherited": "true",
+            "#text": "(none)"
+          },
+          "WebBorderStyleRight": {
+            "-inherited": "true",
+            "#text": "(none)"
+          },
+          "WebBorderStyleTop": {
+            "-inherited": "true",
+            "#text": "(none)"
+          },
+          "WebBorderWidthBottom": {
+            "-inherited": "true",
+            "#text": "Medium"
+          },
+          "WebBorderWidthLeft": {
+            "-inherited": "true",
+            "#text": "Medium"
+          },
+          "WebBorderWidthRight": {
+            "-inherited": "true",
+            "#text": "Medium"
+          },
+          "WebBorderWidthTop": {
+            "-inherited": "true",
+            "#text": "Medium"
+          },
+          "WebBlockTag": {
+            "-inherited": "true",
+            "#text": "P - Paragraph"
+          },
+          "WebBulletStyle": {
+            "-inherited": "true",
+            "#text": "Disc"
+          },
+          "WebClear": {
+            "-inherited": "true",
+            "#text": "(none)"
+          },
+          "WebFloat": {
+            "-inherited": "true",
+            "#text": "(none)"
+          },
+          "WebFontColour": "0",
+          "WebFontName": "(don't inherit)",
+          "WebFontSize": "(don't inherit)",
+          "WebFontStyle": "Italic",
+          "WebFontVariant": {
+            "-inherited": "true",
+            "#text": "(normal)"
+          },
+          "WebFontWeight": "(don't inherit)",
+          "WebHeight": {
+            "-inherited": "true",
+            "#text": "(auto)"
+          },
+          "WebLetterSpacing": {
+            "-inherited": "true",
+            "#text": "(normal)"
+          },
+          "WebLineHeight": {
+            "-inherited": "true",
+            "#text": "(normal)"
+          },
+          "WebMarginBottom": {
+            "-inherited": "true",
+            "#text": "(auto)"
+          },
+          "WebMarginLeft": {
+            "-inherited": "true",
+            "#text": "(auto)"
+          },
+          "WebMarginRight": {
+            "-inherited": "true",
+            "#text": "(auto)"
+          },
+          "WebMarginTop": {
+            "-inherited": "true",
+            "#text": "(auto)"
+          },
+          "WebNumbering": {
+            "-inherited": "true",
+            "#text": "1"
+          },
+          "WebNumberStyle": {
+            "-inherited": "true",
+            "#text": "Decimal"
+          },
+          "WebPaddingBottom": {
+            "-inherited": "true",
+            "#text": "0 pt"
+          },
+          "WebPaddingLeft": {
+            "-inherited": "true",
+            "#text": "0 pt"
+          },
+          "WebPaddingRight": {
+            "-inherited": "true",
+            "#text": "0 pt"
+          },
+          "WebPaddingTop": {
+            "-inherited": "true",
+            "#text": "0 pt"
+          },
+          "WebTextAlign": {
+            "-inherited": "true",
+            "#text": "Left"
+          },
+          "WebTextDecoration": {
+            "-inherited": "true",
+            "#text": "(none)"
+          },
+          "WebTextIndent": {
+            "-inherited": "true",
+            "#text": "0 cm"
+          },
+          "WebTextTag": "EM  - Emphasized text",
+          "WebTextTransform": {
+            "-inherited": "true",
+            "#text": "(none)"
+          },
+          "WebVerticalAlign": "Baseline",
+          "WebWhiteSpace": {
+            "-inherited": "true",
+            "#text": "(normal)"
+          },
+          "WebWidth": {
+            "-inherited": "true",
+            "#text": "(auto)"
+          },
+          "WebWordSpacing": {
+            "-inherited": "true",
+            "#text": "(normal)"
+          }
+        },
+        {
+          "Object": {
+            "BasedOn": "3",
+            "CreatedBy": "(supervisor)",
+            "CreatedDate": "1997-06-16T00:00:00",
+            "Description": "List Bullet",
+            "FolderID": "18",
+            "GUID": "0E71C00904BB42839FD79AC6638BD02F",
+            "ID": "13",
+            "IncludeInHelp": {
+              "-inherited": "true",
+              "#text": "true"
+            },
+            "IncludeInPrint": {
+              "-inherited": "true",
+              "#text": "true"
+            },
+            "IncludeInWeb": {
+              "-inherited": "true",
+              "#text": "true"
+            },
+            "IsTemplate": "false",
+            "Key": "13",
+            "LocalizationID": "0",
+            "ModifiedID": "1507327",
+            "ModifiedBy": "(supervisor)",
+            "ModifiedDate": "2012-11-20T12:28:09",
+            "ReleaseStateID": "0",
+            "Status": "1",
+            "Type": "Style",
+            "Version": "1",
+            "VariantParentID": "0",
+            "LocID": "1"
+          },
+          "BorderBottom": "false",
+          "BorderLeft": "false",
+          "BorderRight": "false",
+          "BorderStyle": "0",
+          "BorderShadow": "false",
+          "BorderTop": "false",
+          "Bullet": "2",
+          "FontBold": "false",
+          "FontColour": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "FontItalics": "false",
+          "FontName": {
+            "-inherited": "true",
+            "#text": "Tahoma"
+          },
+          "FontSize": "10",
+          "FontUnderline": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "FontSubscript": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "FontSuperscript": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "Number": "0",
+          "Numbering": "3",
+          "NumberStart": {
+            "-inherited": "true",
+            "#text": "1"
+          },
+          "OutlineLevel": "1",
+          "ParaAfter": "2",
+          "ParaAlignment": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "ParaBefore": "2",
+          "ParaFirstLine": "-0.6",
+          "ParaLeft": "0.6",
+          "ParaLineSpacing": {
+            "-inherited": "true",
+            "#text": "1"
+          },
+          "ParaRight": "0",
+          "StyleName": "List Bullet",
+          "StyleType": {
+            "-inherited": "true",
+            "#text": "1"
+          },
+          "TabDefault": {
+            "-inherited": "true",
+            "#text": "2.5"
+          },
+          "Tabs": {
+            "Tab": {
+              "Alignment": "0",
+              "Position": "0.6"
+            }
+          },
+          "PrintStyleName": "List Bullet",
+          "HelpBorderBottom": "false",
+          "HelpBorderLeft": "false",
+          "HelpBorderRight": "false",
+          "HelpBorderShadow": "false",
+          "HelpBorderStyle": "0",
+          "HelpBorderTop": "false",
+          "HelpBullet": "0",
+          "HelpFontBold": "false",
+          "HelpFontColour": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpFontItalics": "false",
+          "HelpFontName": {
+            "-inherited": "true",
+            "#text": "Tahoma"
+          },
+          "HelpFontSize": {
+            "-inherited": "true",
+            "#text": "8"
+          },
+          "HelpNonWrapping": "false",
+          "HelpNumber": "0",
+          "HelpNumbering": "3",
+          "HelpNumberStart": {
+            "-inherited": "true",
+            "#text": "1"
+          },
+          "HelpParaAfter": "0",
+          "HelpParaAlignment": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpParaBefore": "4",
+          "HelpParaFirstLine": "-0.5",
+          "HelpParaLeft": "0.7",
+          "HelpParaLineSpacing": {
+            "-inherited": "true",
+            "#text": "1"
+          },
+          "HelpParaRight": {
+            "-inherited": "true",
+            "#text": "0.2"
+          },
+          "HelpTabDefault": {
+            "-inherited": "true",
+            "#text": "2.5"
+          },
+          "HelpTabs": {
+            "Tab": {
+              "Alignment": "0",
+              "Position": "0.7"
+            }
+          },
+          "WebBackAttach": {
+            "-inherited": "true",
+            "#text": "Scroll"
+          },
+          "WebBackColour": "16777215",
+          "WebBackPositionX": {
+            "-inherited": "true",
+            "#text": "0 %"
+          },
+          "WebBackPositionY": {
+            "-inherited": "true",
+            "#text": "0 %"
+          },
+          "WebBackRepeat": {
+            "-inherited": "true",
+            "#text": "(none)"
+          },
+          "WebBackURL": { "-inherited": "true" },
+          "WebBorderColourBottom": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "WebBorderColourLeft": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "WebBorderColourRight": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "WebBorderColourTop": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "WebBorderStyleBottom": "(none)",
+          "WebBorderStyleLeft": "(none)",
+          "WebBorderStyleRight": "(none)",
+          "WebBorderStyleTop": "(none)",
+          "WebBorderWidthBottom": "Medium",
+          "WebBorderWidthLeft": "Medium",
+          "WebBorderWidthRight": "Medium",
+          "WebBorderWidthTop": "Medium",
+          "WebBlockTag": "P - Paragraph",
+          "WebBulletStyle": "Square",
+          "WebClear": {
+            "-inherited": "true",
+            "#text": "(none)"
+          },
+          "WebFloat": {
+            "-inherited": "true",
+            "#text": "(none)"
+          },
+          "WebFontColour": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "WebFontName": {
+            "-inherited": "true",
+            "#text": "Tahoma"
+          },
+          "WebFontSize": {
+            "-inherited": "true",
+            "#text": "10 pt"
+          },
+          "WebFontStyle": "(normal)",
+          "WebFontVariant": {
+            "-inherited": "true",
+            "#text": "(normal)"
+          },
+          "WebFontWeight": {
+            "-inherited": "true",
+            "#text": "(normal)"
+          },
+          "WebHeight": {
+            "-inherited": "true",
+            "#text": "(auto)"
+          },
+          "WebLetterSpacing": {
+            "-inherited": "true",
+            "#text": "(normal)"
+          },
+          "WebLineHeight": {
+            "-inherited": "true",
+            "#text": "(normal)"
+          },
+          "WebMarginBottom": "0 pt",
+          "WebMarginLeft": "0 pt",
+          "WebMarginRight": "0 pt",
+          "WebMarginTop": "3 px",
+          "WebNumbering": "3",
+          "WebNumberStyle": "Decimal",
+          "WebPaddingBottom": "0 pt",
+          "WebPaddingLeft": "15 px",
+          "WebPaddingRight": "0 pt",
+          "WebPaddingTop": "0 pt",
+          "WebTextAlign": {
+            "-inherited": "true",
+            "#text": "Left"
+          },
+          "WebTextDecoration": {
+            "-inherited": "true",
+            "#text": "(none)"
+          },
+          "WebTextIndent": {
+            "-inherited": "true",
+            "#text": "0 cm"
+          },
+          "WebTextTag": {
+            "-inherited": "true",
+            "#text": "(none)"
+          },
+          "WebTextTransform": {
+            "-inherited": "true",
+            "#text": "(none)"
+          },
+          "WebVerticalAlign": {
+            "-inherited": "true",
+            "#text": "Baseline"
+          },
+          "WebWhiteSpace": {
+            "-inherited": "true",
+            "#text": "(normal)"
+          },
+          "WebWidth": {
+            "-inherited": "true",
+            "#text": "(auto)"
+          },
+          "WebWordSpacing": {
+            "-inherited": "true",
+            "#text": "(normal)"
+          }
+        },
+        {
+          "Object": {
+            "BasedOn": "83",
+            "CreatedBy": "(supervisor)",
+            "CreatedDate": "1997-06-16T00:00:00",
+            "Description": "Special Bold",
+            "FolderID": "16",
+            "GUID": "43FB04D1FBD24AADB1151D4B96F0029F",
+            "ID": "24",
+            "IncludeInHelp": "true",
+            "IncludeInPrint": "true",
+            "IncludeInWeb": "true",
+            "IsTemplate": "false",
+            "Key": "24",
+            "LocalizationID": "0",
+            "ModifiedID": "445",
+            "ModifiedBy": "(supervisor)",
+            "ModifiedDate": "2010-04-20T11:35:22",
+            "ReleaseStateID": "0",
+            "Status": "1",
+            "Type": "Style",
+            "Version": "1",
+            "VariantParentID": "0",
+            "LocID": "1"
+          },
+          "BorderBottom": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "BorderLeft": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "BorderRight": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "BorderStyle": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "BorderShadow": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "BorderTop": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "Bullet": "0",
+          "FontBold": "true",
+          "FontColour": "0",
+          "FontItalics": "(don't inherit)",
+          "FontName": "Arial Narrow",
+          "FontSize": "0",
+          "FontUnderline": "-1",
+          "FontSubscript": "(don't inherit)",
+          "FontSuperscript": "(don't inherit)",
+          "Number": {
+            "-inherited": "true",
+            "#text": "1"
+          },
+          "Numbering": {
+            "-inherited": "true",
+            "#text": "1"
+          },
+          "NumberStart": {
+            "-inherited": "true",
+            "#text": "1"
+          },
+          "OutlineLevel": "0",
+          "ParaAfter": "0",
+          "ParaAlignment": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "ParaBefore": "0",
+          "ParaFirstLine": "0",
+          "ParaLeft": "0",
+          "ParaLineSpacing": "0",
+          "ParaRight": "0",
+          "StyleName": "Special Bold",
+          "StyleType": {
+            "-inherited": "true",
+            "#text": "2"
+          },
+          "TabDefault": {
+            "-inherited": "true",
+            "#text": "2.5"
+          },
+          "PrintStyleName": "Special Bold",
+          "HelpBorderBottom": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "HelpBorderLeft": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "HelpBorderRight": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "HelpBorderShadow": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "HelpBorderStyle": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpBorderTop": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "HelpBullet": "0",
+          "HelpFontBold": "true",
+          "HelpFontColour": "4194432",
+          "HelpFontItalics": "(don't inherit)",
+          "HelpFontName": "Arabic Typesetting",
+          "HelpFontSize": "0",
+          "HelpNonWrapping": "(don't inherit)",
+          "HelpNumber": {
+            "-inherited": "true",
+            "#text": "1"
+          },
+          "HelpNumbering": {
+            "-inherited": "true",
+            "#text": "1"
+          },
+          "HelpNumberStart": {
+            "-inherited": "true",
+            "#text": "1"
+          },
+          "HelpParaAfter": "0",
+          "HelpParaAlignment": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpParaBefore": "0",
+          "HelpParaFirstLine": "0",
+          "HelpParaLeft": "0",
+          "HelpParaLineSpacing": "0",
+          "HelpParaRight": "0",
+          "HelpTabDefault": {
+            "-inherited": "true",
+            "#text": "2"
+          },
+          "WebBackAttach": {
+            "-inherited": "true",
+            "#text": "Scroll"
+          },
+          "WebBackColour": "16777215",
+          "WebBackPositionX": {
+            "-inherited": "true",
+            "#text": "0 %"
+          },
+          "WebBackPositionY": {
+            "-inherited": "true",
+            "#text": "0 %"
+          },
+          "WebBackRepeat": {
+            "-inherited": "true",
+            "#text": "(none)"
+          },
+          "WebBorderColourBottom": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "WebBorderColourLeft": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "WebBorderColourRight": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "WebBorderColourTop": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "WebBorderStyleBottom": {
+            "-inherited": "true",
+            "#text": "(none)"
+          },
+          "WebBorderStyleLeft": {
+            "-inherited": "true",
+            "#text": "(none)"
+          },
+          "WebBorderStyleRight": {
+            "-inherited": "true",
+            "#text": "(none)"
+          },
+          "WebBorderStyleTop": {
+            "-inherited": "true",
+            "#text": "(none)"
+          },
+          "WebBorderWidthBottom": {
+            "-inherited": "true",
+            "#text": "Medium"
+          },
+          "WebBorderWidthLeft": {
+            "-inherited": "true",
+            "#text": "Medium"
+          },
+          "WebBorderWidthRight": {
+            "-inherited": "true",
+            "#text": "Medium"
+          },
+          "WebBorderWidthTop": {
+            "-inherited": "true",
+            "#text": "Medium"
+          },
+          "WebBlockTag": {
+            "-inherited": "true",
+            "#text": "P - Paragraph"
+          },
+          "WebBulletStyle": {
+            "-inherited": "true",
+            "#text": "Disc"
+          },
+          "WebClear": {
+            "-inherited": "true",
+            "#text": "(none)"
+          },
+          "WebFloat": {
+            "-inherited": "true",
+            "#text": "(none)"
+          },
+          "WebFontColour": "0",
+          "WebFontName": "Arial",
+          "WebFontSize": "(don't inherit)",
+          "WebFontStyle": "(normal)",
+          "WebFontVariant": {
+            "-inherited": "true",
+            "#text": "(normal)"
+          },
+          "WebFontWeight": "Bold",
+          "WebHeight": {
+            "-inherited": "true",
+            "#text": "(auto)"
+          },
+          "WebLetterSpacing": {
+            "-inherited": "true",
+            "#text": "(normal)"
+          },
+          "WebLineHeight": {
+            "-inherited": "true",
+            "#text": "(normal)"
+          },
+          "WebMarginBottom": {
+            "-inherited": "true",
+            "#text": "(auto)"
+          },
+          "WebMarginLeft": {
+            "-inherited": "true",
+            "#text": "(auto)"
+          },
+          "WebMarginRight": {
+            "-inherited": "true",
+            "#text": "(auto)"
+          },
+          "WebMarginTop": {
+            "-inherited": "true",
+            "#text": "(auto)"
+          },
+          "WebNumbering": {
+            "-inherited": "true",
+            "#text": "1"
+          },
+          "WebNumberStyle": {
+            "-inherited": "true",
+            "#text": "Decimal"
+          },
+          "WebPaddingBottom": {
+            "-inherited": "true",
+            "#text": "0 pt"
+          },
+          "WebPaddingLeft": {
+            "-inherited": "true",
+            "#text": "0 pt"
+          },
+          "WebPaddingRight": {
+            "-inherited": "true",
+            "#text": "0 pt"
+          },
+          "WebPaddingTop": {
+            "-inherited": "true",
+            "#text": "0 pt"
+          },
+          "WebTextAlign": {
+            "-inherited": "true",
+            "#text": "Left"
+          },
+          "WebTextDecoration": {
+            "-inherited": "true",
+            "#text": "(none)"
+          },
+          "WebTextIndent": {
+            "-inherited": "true",
+            "#text": "0 cm"
+          },
+          "WebTextTag": "STRONG - Strongly emphasized",
+          "WebTextTransform": {
+            "-inherited": "true",
+            "#text": "(none)"
+          },
+          "WebVerticalAlign": "Baseline",
+          "WebWhiteSpace": {
+            "-inherited": "true",
+            "#text": "(normal)"
+          },
+          "WebWidth": {
+            "-inherited": "true",
+            "#text": "(auto)"
+          },
+          "WebWordSpacing": {
+            "-inherited": "true",
+            "#text": "(normal)"
+          }
+        },
+        {
+          "Object": {
+            "BasedOn": "0",
+            "CreatedBy": "(supervisor)",
+            "CreatedDate": "1997-11-12T00:00:00",
+            "Description": "Character Styles Template",
+            "FolderID": "4",
+            "GUID": "5AD15CF240704044B31FBC9B953E5292",
+            "ID": "83",
+            "IncludeInHelp": "(don't inherit)",
+            "IncludeInPrint": "(don't inherit)",
+            "IncludeInWeb": "(don't inherit)",
+            "IsTemplate": "true",
+            "Key": "83",
+            "LocalizationID": "0",
+            "ModifiedID": "0",
+            "ModifiedBy": "(supervisor)",
+            "ModifiedDate": "2000-06-02T12:29:14",
+            "ReleaseStateID": "0",
+            "Status": "1",
+            "Type": "Style",
+            "Version": "1",
+            "VariantParentID": "0",
+            "LocID": "1"
+          },
+          "BorderBottom": {
+            "-inherit": "true",
+            "#text": "false"
+          },
+          "BorderLeft": {
+            "-inherit": "true",
+            "#text": "false"
+          },
+          "BorderRight": {
+            "-inherit": "true",
+            "#text": "false"
+          },
+          "BorderStyle": {
+            "-inherit": "true",
+            "#text": "0"
+          },
+          "BorderShadow": {
+            "-inherit": "true",
+            "#text": "false"
+          },
+          "BorderTop": {
+            "-inherit": "true",
+            "#text": "false"
+          },
+          "Bullet": "-1",
+          "FontBold": "(don't inherit)",
+          "FontColour": "16777215",
+          "FontItalics": "(don't inherit)",
+          "FontName": "(don't inherit)",
+          "FontSize": "0",
+          "FontUnderline": "-1",
+          "FontSubscript": "(don't inherit)",
+          "FontSuperscript": "(don't inherit)",
+          "Number": {
+            "-inherit": "true",
+            "#text": "1"
+          },
+          "Numbering": {
+            "-inherit": "true",
+            "#text": "1"
+          },
+          "NumberStart": {
+            "-inherit": "true",
+            "#text": "1"
+          },
+          "OutlineLevel": "0",
+          "ParaAfter": "0",
+          "ParaAlignment": {
+            "-inherit": "true",
+            "#text": "0"
+          },
+          "ParaBefore": "0",
+          "ParaFirstLine": "0",
+          "ParaLeft": "0",
+          "ParaLineSpacing": "0",
+          "ParaRight": "0",
+          "StyleType": {
+            "-inherit": "true",
+            "#text": "2"
+          },
+          "TabDefault": {
+            "-inherit": "true",
+            "#text": "2.5"
+          },
+          "HelpBorderBottom": {
+            "-inherit": "true",
+            "#text": "false"
+          },
+          "HelpBorderLeft": {
+            "-inherit": "true",
+            "#text": "false"
+          },
+          "HelpBorderRight": {
+            "-inherit": "true",
+            "#text": "false"
+          },
+          "HelpBorderShadow": {
+            "-inherit": "true",
+            "#text": "false"
+          },
+          "HelpBorderStyle": {
+            "-inherit": "true",
+            "#text": "0"
+          },
+          "HelpBorderTop": {
+            "-inherit": "true",
+            "#text": "false"
+          },
+          "HelpBullet": "-1",
+          "HelpFontBold": "(don't inherit)",
+          "HelpFontColour": "16777215",
+          "HelpFontItalics": "(don't inherit)",
+          "HelpFontName": "(don't inherit)",
+          "HelpFontSize": "0",
+          "HelpNonWrapping": "(don't inherit)",
+          "HelpNumber": {
+            "-inherit": "true",
+            "#text": "1"
+          },
+          "HelpNumbering": {
+            "-inherit": "true",
+            "#text": "1"
+          },
+          "HelpNumberStart": {
+            "-inherit": "true",
+            "#text": "1"
+          },
+          "HelpParaAfter": "0",
+          "HelpParaAlignment": {
+            "-inherit": "true",
+            "#text": "0"
+          },
+          "HelpParaBefore": "0",
+          "HelpParaFirstLine": "0",
+          "HelpParaLeft": "0",
+          "HelpParaLineSpacing": "0",
+          "HelpParaRight": "0",
+          "HelpTabDefault": {
+            "-inherit": "true",
+            "#text": "2"
+          },
+          "WebBackAttach": {
+            "-inherit": "true",
+            "#text": "Scroll"
+          },
+          "WebBackColour": "16777215",
+          "WebBackPositionX": {
+            "-inherit": "true",
+            "#text": "0 %"
+          },
+          "WebBackPositionY": {
+            "-inherit": "true",
+            "#text": "0 %"
+          },
+          "WebBackRepeat": {
+            "-inherit": "true",
+            "#text": "(none)"
+          },
+          "WebBorderColourBottom": {
+            "-inherit": "true",
+            "#text": "0"
+          },
+          "WebBorderColourLeft": {
+            "-inherit": "true",
+            "#text": "0"
+          },
+          "WebBorderColourRight": {
+            "-inherit": "true",
+            "#text": "0"
+          },
+          "WebBorderColourTop": {
+            "-inherit": "true",
+            "#text": "0"
+          },
+          "WebBorderStyleBottom": {
+            "-inherit": "true",
+            "#text": "(none)"
+          },
+          "WebBorderStyleLeft": {
+            "-inherit": "true",
+            "#text": "(none)"
+          },
+          "WebBorderStyleRight": {
+            "-inherit": "true",
+            "#text": "(none)"
+          },
+          "WebBorderStyleTop": {
+            "-inherit": "true",
+            "#text": "(none)"
+          },
+          "WebBorderWidthBottom": {
+            "-inherit": "true",
+            "#text": "Medium"
+          },
+          "WebBorderWidthLeft": {
+            "-inherit": "true",
+            "#text": "Medium"
+          },
+          "WebBorderWidthRight": {
+            "-inherit": "true",
+            "#text": "Medium"
+          },
+          "WebBorderWidthTop": {
+            "-inherit": "true",
+            "#text": "Medium"
+          },
+          "WebBlockTag": {
+            "-inherit": "true",
+            "#text": "P - Paragraph"
+          },
+          "WebBulletStyle": {
+            "-inherit": "true",
+            "#text": "Disc"
+          },
+          "WebClear": {
+            "-inherit": "true",
+            "#text": "(none)"
+          },
+          "WebFloat": {
+            "-inherit": "true",
+            "#text": "(none)"
+          },
+          "WebFontColour": "16777215",
+          "WebFontName": "(don't inherit)",
+          "WebFontSize": "(don't inherit)",
+          "WebFontStyle": "(don't inherit)",
+          "WebFontVariant": {
+            "-inherit": "true",
+            "#text": "(normal)"
+          },
+          "WebFontWeight": "(don't inherit)",
+          "WebHeight": {
+            "-inherit": "true",
+            "#text": "(auto)"
+          },
+          "WebLetterSpacing": {
+            "-inherit": "true",
+            "#text": "(normal)"
+          },
+          "WebLineHeight": {
+            "-inherit": "true",
+            "#text": "(normal)"
+          },
+          "WebMarginBottom": {
+            "-inherit": "true",
+            "#text": "(auto)"
+          },
+          "WebMarginLeft": {
+            "-inherit": "true",
+            "#text": "(auto)"
+          },
+          "WebMarginRight": {
+            "-inherit": "true",
+            "#text": "(auto)"
+          },
+          "WebMarginTop": {
+            "-inherit": "true",
+            "#text": "(auto)"
+          },
+          "WebNumbering": {
+            "-inherit": "true",
+            "#text": "1"
+          },
+          "WebNumberStyle": {
+            "-inherit": "true",
+            "#text": "Decimal"
+          },
+          "WebPaddingBottom": {
+            "-inherit": "true",
+            "#text": "0 pt"
+          },
+          "WebPaddingLeft": {
+            "-inherit": "true",
+            "#text": "0 pt"
+          },
+          "WebPaddingRight": {
+            "-inherit": "true",
+            "#text": "0 pt"
+          },
+          "WebPaddingTop": {
+            "-inherit": "true",
+            "#text": "0 pt"
+          },
+          "WebTextAlign": {
+            "-inherit": "true",
+            "#text": "Left"
+          },
+          "WebTextDecoration": {
+            "-inherit": "true",
+            "#text": "(none)"
+          },
+          "WebTextIndent": {
+            "-inherit": "true",
+            "#text": "0 cm"
+          },
+          "WebTextTag": "(don't inherit)",
+          "WebTextTransform": {
+            "-inherit": "true",
+            "#text": "(none)"
+          },
+          "WebVerticalAlign": "(don't inherit)",
+          "WebWhiteSpace": {
+            "-inherit": "true",
+            "#text": "(normal)"
+          },
+          "WebWidth": {
+            "-inherit": "true",
+            "#text": "(auto)"
+          },
+          "WebWordSpacing": {
+            "-inherit": "true",
+            "#text": "(normal)"
+          }
+        },
+        {
+          "Object": {
+            "BasedOn": "0",
+            "CreatedBy": "(supervisor)",
+            "CreatedDate": "1997-11-12T00:00:00",
+            "Description": "Paragraph Styles Template",
+            "FolderID": "4",
+            "GUID": "799D39830B134D748DC20F97E2E87C40",
+            "ID": "84",
+            "IncludeInHelp": "(don't inherit)",
+            "IncludeInPrint": "(don't inherit)",
+            "IncludeInWeb": "(don't inherit)",
+            "IsTemplate": "true",
+            "Key": "84",
+            "LocalizationID": "0",
+            "ModifiedID": "475054",
+            "ModifiedBy": "(supervisor)",
+            "ModifiedDate": "2011-06-11T12:05:48",
+            "ReleaseStateID": "0",
+            "Status": "1",
+            "Type": "Style",
+            "Version": "1",
+            "VariantParentID": "0",
+            "LocID": "1"
+          },
+          "BorderBottom": "(don't inherit)",
+          "BorderLeft": "(don't inherit)",
+          "BorderRight": "(don't inherit)",
+          "BorderStyle": "-1",
+          "BorderShadow": {
+            "-inherit": "true",
+            "#text": "false"
+          },
+          "BorderTop": "(don't inherit)",
+          "Bullet": "-1",
+          "FontBold": "(don't inherit)",
+          "FontColour": "16777215",
+          "FontItalics": "(don't inherit)",
+          "FontName": "(don't inherit)",
+          "FontSize": "0",
+          "FontUnderline": "-1",
+          "FontSubscript": {
+            "-inherit": "true",
+            "#text": "false"
+          },
+          "FontSuperscript": {
+            "-inherit": "true",
+            "#text": "false"
+          },
+          "Number": "-1",
+          "Numbering": "0",
+          "NumberStart": {
+            "-inherit": "true",
+            "#text": "1"
+          },
+          "OutlineLevel": "0",
+          "ParaAfter": "0",
+          "ParaAlignment": "-1",
+          "ParaBefore": "0",
+          "ParaFirstLine": "0",
+          "ParaLeft": "0",
+          "ParaLineSpacing": {
+            "-inherit": "true",
+            "#text": "1"
+          },
+          "ParaRight": "0",
+          "StyleType": {
+            "-inherit": "true",
+            "#text": "1"
+          },
+          "TabDefault": {
+            "-inherit": "true",
+            "#text": "2.5"
+          },
+          "HelpBorderBottom": "(don't inherit)",
+          "HelpBorderLeft": "(don't inherit)",
+          "HelpBorderRight": "(don't inherit)",
+          "HelpBorderShadow": "(don't inherit)",
+          "HelpBorderStyle": "-1",
+          "HelpBorderTop": "(don't inherit)",
+          "HelpBullet": "-1",
+          "HelpFontBold": "(don't inherit)",
+          "HelpFontColour": "16777215",
+          "HelpFontItalics": "(don't inherit)",
+          "HelpFontName": "(don't inherit)",
+          "HelpFontSize": "0",
+          "HelpNonWrapping": "(don't inherit)",
+          "HelpNumber": "-1",
+          "HelpNumbering": "0",
+          "HelpNumberStart": {
+            "-inherit": "true",
+            "#text": "1"
+          },
+          "HelpParaAfter": "0",
+          "HelpParaAlignment": "-1",
+          "HelpParaBefore": "0",
+          "HelpParaFirstLine": "0",
+          "HelpParaLeft": "0",
+          "HelpParaLineSpacing": {
+            "-inherit": "true",
+            "#text": "1"
+          },
+          "HelpParaRight": "0",
+          "HelpTabDefault": {
+            "-inherit": "true",
+            "#text": "2.5"
+          },
+          "WebBackAttach": {
+            "-inherit": "true",
+            "#text": "Scroll"
+          },
+          "WebBackColour": "16777215",
+          "WebBackPositionX": {
+            "-inherit": "true",
+            "#text": "0 %"
+          },
+          "WebBackPositionY": {
+            "-inherit": "true",
+            "#text": "0 %"
+          },
+          "WebBackRepeat": {
+            "-inherit": "true",
+            "#text": "(none)"
+          },
+          "WebBorderColourBottom": "16777215",
+          "WebBorderColourLeft": "16777215",
+          "WebBorderColourRight": "16777215",
+          "WebBorderColourTop": "16777215",
+          "WebBorderStyleBottom": "(don't inherit)",
+          "WebBorderStyleLeft": "(don't inherit)",
+          "WebBorderStyleRight": "(don't inherit)",
+          "WebBorderStyleTop": "(don't inherit)",
+          "WebBorderWidthBottom": "(don't inherit)",
+          "WebBorderWidthLeft": "(don't inherit)",
+          "WebBorderWidthRight": "(don't inherit)",
+          "WebBorderWidthTop": "(don't inherit)",
+          "WebBlockTag": "(don't inherit)",
+          "WebBulletStyle": "(don't inherit)",
+          "WebClear": {
+            "-inherit": "true",
+            "#text": "(none)"
+          },
+          "WebFloat": {
+            "-inherit": "true",
+            "#text": "(none)"
+          },
+          "WebFontColour": "16777215",
+          "WebFontName": "(don't inherit)",
+          "WebFontSize": "(don't inherit)",
+          "WebFontStyle": "(don't inherit)",
+          "WebFontVariant": "(don't inherit)",
+          "WebFontWeight": "(don't inherit)",
+          "WebHeight": {
+            "-inherit": "true",
+            "#text": "(auto)"
+          },
+          "WebLetterSpacing": {
+            "-inherit": "true",
+            "#text": "(normal)"
+          },
+          "WebNumbering": "0",
+          "WebNumberStyle": "(don't inherit)",
+          "WebTextAlign": "(don't inherit)",
+          "WebTextDecoration": "(don't inherit)",
+          "WebTextTag": "(don't inherit)",
+          "WebTextTransform": "(don't inherit)",
+          "WebVerticalAlign": "(don't inherit)",
+          "WebWhiteSpace": {
+            "-inherit": "true",
+            "#text": "(normal)"
+          },
+          "WebWordSpacing": {
+            "-inherit": "true",
+            "#text": "(normal)"
+          }
+        }
+      ],
+      "Topic": [
+        {
+          "Object": {
+            "BasedOn": "475",
+            "CreatedBy": "(supervisor)",
+            "CreatedDate": "2014-10-06T16:15:21",
+            "Description": "Modification History",
+            "FolderID": "87125",
+            "GUID": "648b71a19c1742eb9d43f705c857c95f",
+            "ID": "672388",
+            "IncludeInHelp": {
+              "-inherited": "true",
+              "#text": "true"
+            },
+            "IncludeInPrint": {
+              "-inherited": "true",
+              "#text": "true"
+            },
+            "IncludeInWeb": {
+              "-inherited": "true",
+              "#text": "true"
+            },
+            "IsTemplate": "false",
+            "Key": "672388",
+            "LocalizationID": "0",
+            "ModifiedID": "3307415",
+            "ModifiedBy": "(supervisor)",
+            "ModifiedDate": "2015-03-25T17:51:55",
+            "ReleaseStateID": "6",
+            "Status": "1",
+            "Type": "Topic",
+            "Version": "1",
+            "VariantParentID": "0",
+            "LocID": "1"
+          },
+          "Headings": {
+            "PrintHeading": {
+              "-inherited": "true",
+              "#text": "Modification History"
+            }
+          },
+          "Text": {
+            "table": {
+              "-rows": "2",
+              "-cols": "2",
+              "-width": "8964",
+              "tr": [
+                {
+                  "-allowbreak": "true",
+                  "-rowheight": "0",
+                  "td": [
+                    {
+                      "-width": "3091",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": {
+                        "-id": "4",
+                        "cs": {
+                          "-id": "24",
+                          "#text": "Release"
+                        }
+                      }
+                    },
+                    {
+                      "-width": "5873",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": {
+                        "-id": "4",
+                        "cs": {
+                          "-id": "24",
+                          "#text": "Comments"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "-allowbreak": "true",
+                  "-rowheight": "0",
+                  "td": [
+                    {
+                      "-width": "3091",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": {
+                        "-id": "4",
+                        "#text": "Release 1"
+                      }
+                    },
+                    {
+                      "-width": "5873",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": {
+                        "-id": "4",
+                        "#text": "This version first released with ICT Information and Communications Technology Training Package Version 1.0."
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "p": { "-id": "4" }
+          },
+          "VariableAssignments": {
+            "VariableAssignment": {
+              "ID": "64",
+              "Name": "HISTCOMMENT",
+              "ValueObject": "0",
+              "Style": "0",
+              "PublishPrompt": "false"
+            }
+          },
+          "PrintAutoNumber": "0",
+          "PrintBreakType": {
+            "-inherited": "true",
+            "#text": "3"
+          },
+          "PrintEndnotePage": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "PrintEndnoteListFormat": "0",
+          "PrintEndnoteNumberType": "0",
+          "PrintHeadingStyle": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "PrintMedia": {
+            "-inherited": "true",
+            "#text": "44"
+          },
+          "PrintSuperHeading": "ICTPRG507 Implement security for applications",
+          "HelpContextID": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpHeadingStyle": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpIncludeInSequence": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "HelpJumpMacro": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpJumpType": {
+            "-inherited": "true",
+            "#text": "2"
+          },
+          "HelpJumpWindow": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpNewSequence": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "HelpNonScrolling": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "HelpTopicMacro": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "WebMedia": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "WebStartNewPage": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "WebTOCImage": {
+            "-inherited": "true",
+            "#text": "(auto)"
+          }
+        },
+        {
+          "Object": {
+            "BasedOn": "513615",
+            "CreatedBy": "(supervisor)",
+            "CreatedDate": "2014-10-06T16:15:21",
+            "Description": "Application",
+            "FolderID": "87125",
+            "GUID": "5cc622722ff04c7ebdb3d4d155421131",
+            "ID": "672389",
+            "IncludeInHelp": {
+              "-inherited": "true",
+              "#text": "true"
+            },
+            "IncludeInPrint": {
+              "-inherited": "true",
+              "#text": "true"
+            },
+            "IncludeInWeb": {
+              "-inherited": "true",
+              "#text": "true"
+            },
+            "IsTemplate": "false",
+            "Key": "672389",
+            "LocalizationID": "0",
+            "ModifiedID": "3307407",
+            "ModifiedBy": "(supervisor)",
+            "ModifiedDate": "2015-03-25T17:51:54",
+            "ReleaseStateID": "6",
+            "Status": "1",
+            "Type": "Topic",
+            "Version": "1",
+            "VariantParentID": "0",
+            "LocID": "1"
+          },
+          "Headings": {
+            "PrintHeading": {
+              "-inherited": "true",
+              "#text": "Application"
+            },
+            "HelpHeading": {
+              "-inherited": "true",
+              "#text": "Application"
+            },
+            "WebHeading": {
+              "-inherited": "true",
+              "#text": "Application"
+            }
+          },
+          "Text": {
+            "p": [
+              {
+                "-id": "4",
+                "#text": "This unit describes the skills and knowledge required to implement security for software applications, including code access security, security access control, cryptographic and secure, input and output handling."
+              },
+              { "-id": "4" },
+              {
+                "-id": "4",
+                "#text": "It applies to individuals who may be responsible for coding secure software applications and who may work as software developers, software engineers, system and security administrators, and testers."
+              },
+              { "-id": "4" },
+              {
+                "-id": "4",
+                "#text": "No licensing, legislative or certification requirements apply to this unit at the time of publication."
+              }
+            ]
+          },
+          "VariableAssignments": {
+            "VariableAssignment": {
+              "ID": "64",
+              "Name": "HISTCOMMENT",
+              "ValueObject": "0",
+              "Style": "0",
+              "PublishPrompt": "false"
+            }
+          },
+          "PrintAutoNumber": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "PrintBreakType": "0",
+          "PrintEndnotePage": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "PrintEndnoteListFormat": "0",
+          "PrintEndnoteNumberType": "0",
+          "PrintHeadingStyle": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "PrintMedia": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpContextID": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpHeadingStyle": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpIncludeInSequence": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "HelpJumpMacro": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpJumpType": {
+            "-inherited": "true",
+            "#text": "2"
+          },
+          "HelpJumpWindow": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpNewSequence": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "HelpNonScrolling": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "HelpTopicMacro": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "WebMedia": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "WebStartNewPage": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "WebTOCImage": {
+            "-inherited": "true",
+            "#text": "(auto)"
+          }
+        },
+        {
+          "Object": {
+            "BasedOn": "513634",
+            "CreatedBy": "(supervisor)",
+            "CreatedDate": "2014-10-06T16:15:22",
+            "Description": "Unit Sector",
+            "FolderID": "87125",
+            "GUID": "bf741d5353c2491f9ce5fc1ba06e2b20",
+            "ID": "672392",
+            "IncludeInHelp": {
+              "-inherited": "true",
+              "#text": "true"
+            },
+            "IncludeInPrint": {
+              "-inherited": "true",
+              "#text": "true"
+            },
+            "IncludeInWeb": {
+              "-inherited": "true",
+              "#text": "true"
+            },
+            "IsTemplate": "false",
+            "Key": "672392",
+            "LocalizationID": "0",
+            "ModifiedID": "3307420",
+            "ModifiedBy": "(supervisor)",
+            "ModifiedDate": "2015-03-25T17:51:55",
+            "ReleaseStateID": "6",
+            "Status": "1",
+            "Type": "Topic",
+            "Version": "1",
+            "VariantParentID": "0",
+            "LocID": "1"
+          },
+          "Headings": {
+            "PrintHeading": {
+              "-inherited": "true",
+              "#text": "Unit Sector"
+            },
+            "HelpHeading": {
+              "-inherited": "true",
+              "#text": "Unit Sector"
+            },
+            "WebHeading": {
+              "-inherited": "true",
+              "#text": "Unit Sector"
+            }
+          },
+          "Text": {
+            "p": {
+              "-id": "4",
+              "#text": "Programming and software development"
+            }
+          },
+          "VariableAssignments": {
+            "VariableAssignment": {
+              "ID": "64",
+              "Name": "HISTCOMMENT",
+              "ValueObject": "0",
+              "Style": "0",
+              "PublishPrompt": "false"
+            }
+          },
+          "PrintAutoNumber": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "PrintBreakType": "0",
+          "PrintEndnotePage": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "PrintEndnoteListFormat": "0",
+          "PrintEndnoteNumberType": "0",
+          "PrintHeadingStyle": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "PrintMedia": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpContextID": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpHeadingStyle": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpIncludeInSequence": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "HelpJumpMacro": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpJumpType": {
+            "-inherited": "true",
+            "#text": "2"
+          },
+          "HelpJumpWindow": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpNewSequence": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "HelpNonScrolling": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "HelpTopicMacro": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "WebMedia": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "WebStartNewPage": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "WebTOCImage": {
+            "-inherited": "true",
+            "#text": "(auto)"
+          }
+        },
+        {
+          "Object": {
+            "BasedOn": "513620",
+            "CreatedBy": "(supervisor)",
+            "CreatedDate": "2014-10-06T16:15:22",
+            "Description": "Elements and Performance Criteria",
+            "FolderID": "87125",
+            "GUID": "4a24e4dd822d45a695098f43c6ca1316",
+            "ID": "672393",
+            "IncludeInHelp": {
+              "-inherited": "true",
+              "#text": "true"
+            },
+            "IncludeInPrint": {
+              "-inherited": "true",
+              "#text": "true"
+            },
+            "IncludeInWeb": {
+              "-inherited": "true",
+              "#text": "true"
+            },
+            "IsTemplate": "false",
+            "Key": "672393",
+            "LocalizationID": "0",
+            "ModifiedID": "3307410",
+            "ModifiedBy": "(supervisor)",
+            "ModifiedDate": "2015-03-25T17:51:55",
+            "ReleaseStateID": "6",
+            "Status": "1",
+            "Type": "Topic",
+            "Version": "1",
+            "VariantParentID": "0",
+            "LocID": "1"
+          },
+          "Headings": {
+            "PrintHeading": {
+              "-inherited": "true",
+              "#text": "Elements and Performance Criteria"
+            },
+            "HelpHeading": {
+              "-inherited": "true",
+              "#text": "Elements and Performance Criteria"
+            },
+            "WebHeading": {
+              "-inherited": "true",
+              "#text": "Elements and Performance Criteria"
+            }
+          },
+          "Text": {
+            "table": {
+              "-rows": "6",
+              "-cols": "2",
+              "-width": "9236",
+              "tr": [
+                {
+                  "-header": "true",
+                  "-allowbreak": "true",
+                  "-rowheight": "0",
+                  "td": [
+                    {
+                      "-width": "2645",
+                      "-borders": "10",
+                      "-bordercolors": "65793,65793,65793,12632256",
+                      "p": {
+                        "-id": "4",
+                        "cs": {
+                          "-id": "24",
+                          "#text": "ELEMENT"
+                        }
+                      }
+                    },
+                    {
+                      "-width": "6591",
+                      "-borders": "10",
+                      "-bordercolors": "65793,65793,65793,12632256",
+                      "p": {
+                        "-id": "4",
+                        "cs": {
+                          "-id": "24",
+                          "#text": "PERFORMANCE CRITERIA"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "-allowbreak": "true",
+                  "-rowheight": "0",
+                  "td": [
+                    {
+                      "-width": "2645",
+                      "-borders": "10",
+                      "-bordercolors": "65793,65793,12632256,65793",
+                      "p": {
+                        "-id": "4",
+                        "cs": {
+                          "-id": "7",
+                          "#text": "Elements describe the essential outcomes."
+                        }
+                      }
+                    },
+                    {
+                      "-width": "6591",
+                      "-borders": "10",
+                      "-bordercolors": "65793,65793,12632256,65793",
+                      "p": {
+                        "-id": "4",
+                        "cs": {
+                          "-id": "7",
+                          "#text": "Performance criteria describe the performance needed to demonstrate achievement of the element."
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "-allowbreak": "true",
+                  "-rowheight": "0",
+                  "td": [
+                    {
+                      "-width": "2645",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": {
+                        "-id": "4",
+                        "#text": "1. Implement policy-based code-access security in an application"
+                      }
+                    },
+                    {
+                      "-width": "6591",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": [
+                        {
+                          "-id": "4",
+                          "#text": "1.1 Identify the purpose of application security in software development"
+                        },
+                        {
+                          "-id": "4",
+                          "#text": "1.2 Configure the platform security configuration files using security configuration tools"
+                        },
+                        {
+                          "-id": "4",
+                          "#text": "1.3 Define a custom code access permission, to restrict access to protected resources or to run protected operations"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "-allowbreak": "true",
+                  "-rowheight": "0",
+                  "td": [
+                    {
+                      "-width": "2645",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": {
+                        "-id": "4",
+                        "#text": "2. Implement security access control in an application"
+                      }
+                    },
+                    {
+                      "-width": "6591",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": [
+                        {
+                          "-id": "4",
+                          "#text": "2.1 Plan an authentication and authorisation strategy"
+                        },
+                        {
+                          "-id": "4",
+                          "#text": "2.2 Develop an appropriate authentication and authorisation strategy for an application"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "-allowbreak": "true",
+                  "-rowheight": "0",
+                  "td": [
+                    {
+                      "-width": "2645",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": {
+                        "-id": "4",
+                        "#text": "3. Write code to encrypt and decrypt data for secure communication"
+                      }
+                    },
+                    {
+                      "-width": "6591",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": [
+                        {
+                          "-id": "4",
+                          "#text": "3.1 Analyse the standard cryptographic algorithms"
+                        },
+                        {
+                          "-id": "4",
+                          "#text": "3.2 Encrypt, and decrypt, data using standard cryptographic algorithms"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "-allowbreak": "true",
+                  "-rowheight": "0",
+                  "td": [
+                    {
+                      "-width": "2645",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": {
+                        "-id": "4",
+                        "#text": "4. Protect an application against injections"
+                      }
+                    },
+                    {
+                      "-width": "6591",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": [
+                        {
+                          "-id": "4",
+                          "#text": "4.1 Plan secure input and output handling, to prevent vulnerabilities related to code injections"
+                        },
+                        {
+                          "-id": "4",
+                          "#text": "4.2 Use secure input and output handling"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "p": { "-id": "4" }
+          },
+          "VariableAssignments": {
+            "VariableAssignment": {
+              "ID": "64",
+              "Name": "HISTCOMMENT",
+              "ValueObject": "0",
+              "Style": "0",
+              "PublishPrompt": "false"
+            }
+          },
+          "PrintAutoNumber": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "PrintBreakType": "0",
+          "PrintEndnotePage": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "PrintEndnoteListFormat": "0",
+          "PrintEndnoteNumberType": "0",
+          "PrintHeadingStyle": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "PrintMedia": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpContextID": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpHeadingStyle": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpIncludeInSequence": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "HelpJumpMacro": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpJumpType": {
+            "-inherited": "true",
+            "#text": "2"
+          },
+          "HelpJumpWindow": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpNewSequence": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "HelpNonScrolling": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "HelpTopicMacro": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "WebMedia": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "WebStartNewPage": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "WebTOCImage": {
+            "-inherited": "true",
+            "#text": "(auto)"
+          }
+        },
+        {
+          "Object": {
+            "BasedOn": "513622",
+            "CreatedBy": "Project Officer DO IBSA",
+            "CreatedDate": "2014-10-06T16:23:19",
+            "Description": "Foundation Skills",
+            "FolderID": "87125",
+            "GUID": "adc4b8b7645d4f2ab35028fe8ea98bc3",
+            "ID": "672405",
+            "IncludeInHelp": {
+              "-inherited": "true",
+              "#text": "true"
+            },
+            "IncludeInPrint": {
+              "-inherited": "true",
+              "#text": "true"
+            },
+            "IncludeInWeb": {
+              "-inherited": "true",
+              "#text": "true"
+            },
+            "IsTemplate": "false",
+            "Key": "672405",
+            "LocalizationID": "0",
+            "ModifiedID": "3307411",
+            "ModifiedBy": "(supervisor)",
+            "ModifiedDate": "2015-03-25T17:51:55",
+            "ReleaseStateID": "6",
+            "Status": "1",
+            "Type": "Topic",
+            "Version": "1",
+            "VariantParentID": "0",
+            "LocID": "1"
+          },
+          "Headings": {
+            "PrintHeading": {
+              "-inherited": "true",
+              "#text": "Foundation Skills"
+            },
+            "HelpHeading": {
+              "-inherited": "true",
+              "#text": "Foundation Skills"
+            },
+            "WebHeading": {
+              "-inherited": "true",
+              "#text": "Foundation Skills"
+            }
+          },
+          "Text": {
+            "p": [
+              {
+                "-id": "4",
+                "cs": {
+                  "-id": "7",
+                  "#text": "This section describes language, literacy, numeracy and employment skills incorporated in the performance criteria that are required for competent performance."
+                }
+              },
+              { "-id": "4" }
+            ],
+            "table": {
+              "-rows": "4",
+              "-cols": "3",
+              "-width": "9640",
+              "tr": [
+                {
+                  "-allowbreak": "true",
+                  "-rowheight": "0",
+                  "td": [
+                    {
+                      "-width": "1405",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": {
+                        "-id": "4",
+                        "cs": {
+                          "-id": "24",
+                          "#text": "Skill"
+                        }
+                      }
+                    },
+                    {
+                      "-width": "2192",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": {
+                        "-id": "4",
+                        "cs": {
+                          "-id": "24",
+                          "#text": "Performance Criteria"
+                        }
+                      }
+                    },
+                    {
+                      "-width": "6043",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": {
+                        "-id": "4",
+                        "cs": {
+                          "-id": "24",
+                          "#text": "Description"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "-allowbreak": "true",
+                  "-rowheight": "0",
+                  "td": [
+                    {
+                      "-width": "1405",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": {
+                        "-id": "4",
+                        "#text": "Reading"
+                      }
+                    },
+                    {
+                      "-width": "2192",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": {
+                        "-id": "4",
+                        "#text": "1.1, 3.1"
+                      }
+                    },
+                    {
+                      "-width": "6043",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": {
+                        "-id": "13",
+                        "#text": "Evaluates complex and varied information, and concepts, in software security"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "-allowbreak": "true",
+                  "-rowheight": "0",
+                  "td": [
+                    {
+                      "-width": "1405",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": {
+                        "-id": "4",
+                        "#text": "Writing"
+                      }
+                    },
+                    {
+                      "-width": "2192",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": {
+                        "-id": "4",
+                        "#text": "1.2, 3.2, 4.2"
+                      }
+                    },
+                    {
+                      "-width": "6043",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": {
+                        "-id": "13",
+                        "#text": "Writes and edits computer code, and technical data, ensuring the correct syntax and accuracy"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "-allowbreak": "true",
+                  "-rowheight": "0",
+                  "td": [
+                    {
+                      "-width": "1405",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": {
+                        "-id": "4",
+                        "#text": "Get the work done"
+                      }
+                    },
+                    {
+                      "-width": "2192",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": {
+                        "-id": "4",
+                        "#text": "1.2, 1.3, 2.1, 2.2, 3.2, 3.1, 4.1, 4.2"
+                      }
+                    },
+                    {
+                      "-width": "6043",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": [
+                        {
+                          "-id": "13",
+                          "#text": "Takes responsibility for planning, sequencing and prioritising processes and tasks to achieve the required outcomes"
+                        },
+                        {
+                          "-id": "13",
+                          "#text": "Applies systematic and analytical problem-solving processes, in order to develop appropriate security access control strategies"
+                        },
+                        {
+                          "-id": "13",
+                          "#text": "Uses a range of digital tools and sophisticated techniques to meet desired outcomes"
+                        },
+                        {
+                          "-id": "13",
+                          "#text": "Is acutely aware of the importance of data security and of monitoring, and controlling, access to digitally stored and transmitted information"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "VariableAssignments": {
+            "VariableAssignment": {
+              "ID": "64",
+              "Name": "HISTCOMMENT",
+              "ValueObject": "0",
+              "Style": "0",
+              "PublishPrompt": "false"
+            }
+          },
+          "PrintAutoNumber": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "PrintBreakType": "0",
+          "PrintEndnotePage": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "PrintEndnoteListFormat": "0",
+          "PrintEndnoteNumberType": "0",
+          "PrintHeadingStyle": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "PrintMedia": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpContextID": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpHeadingStyle": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpIncludeInSequence": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "HelpJumpMacro": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpJumpType": {
+            "-inherited": "true",
+            "#text": "2"
+          },
+          "HelpJumpWindow": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpNewSequence": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "HelpNonScrolling": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "HelpTopicMacro": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "WebMedia": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "WebStartNewPage": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "WebTOCImage": {
+            "-inherited": "true",
+            "#text": "(auto)"
+          }
+        },
+        {
+          "Object": {
+            "BasedOn": "513626",
+            "CreatedBy": "(supervisor)",
+            "CreatedDate": "2014-10-06T16:15:22",
+            "Description": "Unit Mapping Information",
+            "FolderID": "87125",
+            "GUID": "83cacd3b79714fb5acf5f77ab1db8553",
+            "ID": "672396",
+            "IncludeInHelp": {
+              "-inherited": "true",
+              "#text": "true"
+            },
+            "IncludeInPrint": {
+              "-inherited": "true",
+              "#text": "true"
+            },
+            "IncludeInWeb": {
+              "-inherited": "true",
+              "#text": "true"
+            },
+            "IsTemplate": "false",
+            "Key": "672396",
+            "LocalizationID": "0",
+            "ModifiedID": "3307419",
+            "ModifiedBy": "(supervisor)",
+            "ModifiedDate": "2015-03-25T17:51:55",
+            "ReleaseStateID": "6",
+            "Status": "1",
+            "Type": "Topic",
+            "Version": "1",
+            "VariantParentID": "0",
+            "LocID": "1"
+          },
+          "Headings": {
+            "PrintHeading": "Unit Mapping Information",
+            "HelpHeading": {
+              "-inherited": "true",
+              "#text": "Mapping Information"
+            },
+            "WebHeading": {
+              "-inherited": "true",
+              "#text": "Mapping Information"
+            }
+          },
+          "Text": {
+            "table": {
+              "-rows": "2",
+              "-cols": "4",
+              "-width": "6095",
+              "tr": [
+                {
+                  "-header": "true",
+                  "-allowbreak": "true",
+                  "-rowheight": "563",
+                  "td": [
+                    {
+                      "-width": "1480",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": [
+                        {
+                          "-id": "4",
+                          "cs": {
+                            "-id": "24",
+                            "#text": "Code and title"
+                          }
+                        },
+                        {
+                          "-id": "4",
+                          "cs": {
+                            "-id": "24",
+                            "#text": "current version"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "-width": "1636",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": [
+                        {
+                          "-id": "4",
+                          "cs": {
+                            "-id": "24",
+                            "#text": "Code and title"
+                          }
+                        },
+                        {
+                          "-id": "4",
+                          "cs": {
+                            "-id": "24",
+                            "#text": "previous version"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "-width": "1422",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": {
+                        "-id": "4",
+                        "cs": {
+                          "-id": "24",
+                          "#text": "Comments"
+                        }
+                      }
+                    },
+                    {
+                      "-width": "1557",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": {
+                        "-id": "4",
+                        "cs": {
+                          "-id": "24",
+                          "#text": "Equivalence status"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "-allowbreak": "true",
+                  "-rowheight": "0",
+                  "td": [
+                    {
+                      "-width": "1480",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": {
+                        "-id": "4",
+                        "#text": "ICTPRG507 Implement security for applications"
+                      }
+                    },
+                    {
+                      "-width": "1636",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": {
+                        "-id": "4",
+                        "#text": "ICAPRG507A Implement security for applications"
+                      }
+                    },
+                    {
+                      "-width": "1422",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": {
+                        "-id": "4",
+                        "#text": "Updated to meet Standards for Training Packages"
+                      }
+                    },
+                    {
+                      "-width": "1557",
+                      "-borders": "10",
+                      "-bordercolors": "65793",
+                      "p": {
+                        "-id": "4",
+                        "#text": "Equivalent unit"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "p": { "-id": "4" }
+          },
+          "VariableAssignments": {
+            "VariableAssignment": {
+              "ID": "64",
+              "Name": "HISTCOMMENT",
+              "ValueObject": "0",
+              "Style": "0",
+              "PublishPrompt": "false"
+            }
+          },
+          "PrintAutoNumber": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "PrintBreakType": "0",
+          "PrintEndnotePage": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "PrintEndnoteListFormat": "0",
+          "PrintEndnoteNumberType": "0",
+          "PrintHeadingStyle": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "PrintMedia": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpContextID": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpHeadingStyle": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpIncludeInSequence": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "HelpJumpMacro": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpJumpType": {
+            "-inherited": "true",
+            "#text": "2"
+          },
+          "HelpJumpWindow": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpNewSequence": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "HelpNonScrolling": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "HelpTopicMacro": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "WebMedia": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "WebStartNewPage": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "WebTOCImage": {
+            "-inherited": "true",
+            "#text": "(auto)"
+          }
+        },
+        {
+          "Object": {
+            "BasedOn": "513625",
+            "CreatedBy": "(supervisor)",
+            "CreatedDate": "2014-10-06T16:15:25",
+            "Description": "Links",
+            "FolderID": "87125",
+            "GUID": "28bf803bd8a442a8aae91f1114906a3c",
+            "ID": "672403",
+            "IncludeInHelp": {
+              "-inherited": "true",
+              "#text": "true"
+            },
+            "IncludeInPrint": {
+              "-inherited": "true",
+              "#text": "true"
+            },
+            "IncludeInWeb": {
+              "-inherited": "true",
+              "#text": "true"
+            },
+            "IsTemplate": "false",
+            "Key": "672403",
+            "LocalizationID": "0",
+            "ModifiedID": "4500349",
+            "ModifiedBy": "(supervisor)",
+            "ModifiedDate": "2016-01-05T17:58:45",
+            "ReleaseStateID": "11",
+            "Status": "1",
+            "Type": "Topic",
+            "Version": "1",
+            "VariantParentID": "0",
+            "LocID": "1"
+          },
+          "Headings": {
+            "PrintHeading": {
+              "-inherited": "true",
+              "#text": "Links"
+            },
+            "HelpHeading": {
+              "-inherited": "true",
+              "#text": "Links"
+            },
+            "WebHeading": {
+              "-inherited": "true",
+              "#text": "Links"
+            }
+          },
+          "Text": {
+            "p": {
+              "-id": "4",
+              "#text": "Companion volumes available from the IBSA website: http://www.ibsa.org.au/companion_volumes - http://companion_volumes.vetnet.education.gov.au/Pages/TrainingPackage.aspx?pid=18"
+            }
+          },
+          "VariableAssignments": {
+            "VariableAssignment": {
+              "ID": "64",
+              "Name": "HISTCOMMENT",
+              "ValueObject": "0",
+              "Style": "0",
+              "PublishPrompt": "false"
+            }
+          },
+          "PrintAutoNumber": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "PrintBreakType": "0",
+          "PrintEndnotePage": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "PrintEndnoteListFormat": "0",
+          "PrintEndnoteNumberType": "0",
+          "PrintHeadingStyle": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "PrintMedia": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpContextID": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpHeadingStyle": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpIncludeInSequence": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "HelpJumpMacro": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpJumpType": {
+            "-inherited": "true",
+            "#text": "2"
+          },
+          "HelpJumpWindow": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "HelpNewSequence": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "HelpNonScrolling": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "HelpTopicMacro": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "WebMedia": {
+            "-inherited": "true",
+            "#text": "0"
+          },
+          "WebStartNewPage": {
+            "-inherited": "true",
+            "#text": "false"
+          },
+          "WebTOCImage": {
+            "-inherited": "true",
+            "#text": "(auto)"
+          }
+        }
+      ],
+      "PublishProfile": {
+        "Object": {
+          "BasedOn": "0",
+          "CreatedBy": "(supervisor)",
+          "CreatedDate": "2007-09-16T11:49:52",
+          "Description": "XML",
+          "FolderID": "14",
+          "GUID": "8c7fd3b5e0cd4dddbc141a144c3406ce",
+          "ID": "184",
+          "IncludeInHelp": "false",
+          "IncludeInPrint": "false",
+          "IncludeInWeb": "false",
+          "IsTemplate": "false",
+          "Key": "184",
+          "LocalizationID": "0",
+          "ModifiedID": "481162",
+          "ModifiedBy": "(supervisor)",
+          "ModifiedDate": "2011-07-04T09:30:36",
+          "ReleaseStateID": "0",
+          "Status": "1",
+          "Type": "Publishing Profile",
+          "Version": "1",
+          "VariantParentID": "0",
+          "LocID": "1"
+        },
+        "PublishFormat": "11",
+        "Books": {
+          "Relation": { "ID": "-1" }
+        },
+        "ReleaseStateAction": "2",
+        "FilterAll": "false",
+        "FilterRules": {
+          "FilterRule": [
+            {
+              "FilterRuleID": "7",
+              "FilteredObjectID": "0",
+              "ReleaseStateID": "-1",
+              "ReleaseStateOperator": "0",
+              "FolderID": "84",
+              "FolderOperator": "0",
+              "IncludeSubfolders": "true",
+              "VariableID": "-1",
+              "VariableOperator": "0"
+            },
+            {
+              "FilterRuleID": "8",
+              "FilteredObjectID": "0",
+              "ReleaseStateID": "-1",
+              "ReleaseStateOperator": "0",
+              "FolderID": "4",
+              "FolderOperator": "0",
+              "IncludeSubfolders": "true",
+              "VariableID": "-1",
+              "VariableOperator": "0"
+            }
+          ]
+        }
+      }
+    },
+    "ObjectSummarys": {
+      "ObjectSummary": [
+        {
+          "ID": "475",
+          "Type": "Topic",
+          "GUID": "f01a7ea4754a4e24bcceaa2641e2ec2d",
+          "Description": "Modification History"
+        },
+        {
+          "ID": "513614",
+          "Type": "Topic",
+          "GUID": "91010dcf29db4528b1a9e85358850ac8",
+          "Description": "Template Data"
+        },
+        {
+          "ID": "513615",
+          "Type": "Topic",
+          "GUID": "1404268228ec4af3a9dc8fb8c5e0cc29",
+          "Description": "Streamlined Application"
+        },
+        {
+          "ID": "513617",
+          "Type": "Topic",
+          "GUID": "a461a9d2823e495cb7b1cc4d9eebc39e",
+          "Description": "Streamlined Competency Field"
+        },
+        {
+          "ID": "513620",
+          "Type": "Topic",
+          "GUID": "4cca22fc2372465b871c463d5badc1fc",
+          "Description": "Streamlined Elements and Performance Criteria"
+        },
+        {
+          "ID": "513622",
+          "Type": "Topic",
+          "GUID": "725cde25750148c7a4d40b4215b6f569",
+          "Description": "Streamlined Foundation Skills"
+        },
+        {
+          "ID": "513625",
+          "Type": "Topic",
+          "GUID": "23e4d0a089cc4256a33964ea713f6913",
+          "Description": "Streamlined Links"
+        },
+        {
+          "ID": "513626",
+          "Type": "Topic",
+          "GUID": "0f8d8aad097b41a7ba8ec1242ad44d2f",
+          "Description": "Streamlined Mapping Information"
+        },
+        {
+          "ID": "513630",
+          "Type": "Topic",
+          "GUID": "444c35fcfb274c27aa1b73af55b5f205",
+          "Description": "Streamlined Pre-requisite Unit"
+        },
+        {
+          "ID": "513631",
+          "Type": "Topic",
+          "GUID": "d4a59e1809f24105819abecee6cc5709",
+          "Description": "Streamlined Range of Conditions"
+        },
+        {
+          "ID": "513634",
+          "Type": "Topic",
+          "GUID": "d5866f786a5f425b980da4c80b717371",
+          "Description": "Streamlined Unit Sector"
+        }
+      ]
+    },
+    "Folders": {
+      "Folder": [
+        {
+          "ID": "72391",
+          "Name": "Streamlined Training Package Books",
+          "GUID": "f1cd14a8491e4ea3b5780e184e8d6086",
+          "ParentFolderID": "72384",
+          "HasSubFolders": "false"
+        },
+        {
+          "ID": "72384",
+          "Name": "Streamlined Training Packages",
+          "GUID": "9ad9e22317524b23ad49a0e0c8821b0c",
+          "ParentFolderID": "4",
+          "HasSubFolders": "true"
+        },
+        {
+          "ID": "4",
+          "Name": "Object Templates",
+          "GUID": "C547BC452EC143FB841A5D2DB2043E4D",
+          "ParentFolderID": "0",
+          "HasSubFolders": "true"
+        },
+        {
+          "ID": "5",
+          "Name": "Media",
+          "GUID": "3EC95BAD0F59402887C4543448F1A496",
+          "ParentFolderID": "1",
+          "HasSubFolders": "false"
+        },
+        {
+          "ID": "1",
+          "Name": "Z_Standards",
+          "GUID": "3E516340F182493AA759D8B59F016B1B",
+          "ParentFolderID": "0",
+          "HasSubFolders": "true"
+        },
+        {
+          "ID": "15",
+          "Name": "Body",
+          "GUID": "d84e494c18a74a669abcf24e3c9726fd",
+          "ParentFolderID": "6",
+          "HasSubFolders": "false"
+        },
+        {
+          "ID": "6",
+          "Name": "Styles",
+          "GUID": "36644654AC2849B8BFAE7F04895BF1D7",
+          "ParentFolderID": "1",
+          "HasSubFolders": "true"
+        },
+        {
+          "ID": "16",
+          "Name": "Character",
+          "GUID": "98ed9c9678bd41d48d53d0eaffd6d1fc",
+          "ParentFolderID": "6",
+          "HasSubFolders": "false"
+        },
+        {
+          "ID": "18",
+          "Name": "Lists",
+          "GUID": "2833e80b620c410bab9b3896afe0da6f",
+          "ParentFolderID": "6",
+          "HasSubFolders": "false"
+        },
+        {
+          "ID": "87125",
+          "Name": "Release 1",
+          "GUID": "a35b239f3f6f4f3eaa4d6a2b30d9c74e",
+          "ParentFolderID": "87124",
+          "HasSubFolders": "false"
+        },
+        {
+          "ID": "87124",
+          "Name": "ICTPRG507",
+          "GUID": "fc36793335114ac09c0a442e661b06ce",
+          "ParentFolderID": "86632",
+          "HasSubFolders": "true"
+        },
+        {
+          "ID": "86632",
+          "Name": "Units Of Competency",
+          "GUID": "0e364e0d9675475eaf657bc758635162",
+          "ParentFolderID": "86628",
+          "HasSubFolders": "true"
+        },
+        {
+          "ID": "86628",
+          "Name": "ICT",
+          "GUID": "db1d8ea7e1d0451abffd6b2d135cc915",
+          "ParentFolderID": "67562",
+          "HasSubFolders": "true"
+        },
+        {
+          "ID": "67562",
+          "Name": "Integrated Telecommunications Training Package",
+          "GUID": "8eb2dd276c084d57b02e7cc608a3364d",
+          "ParentFolderID": "73",
+          "HasSubFolders": "true"
+        },
+        {
+          "ID": "73",
+          "Name": "Innovation and Business Skills Australia",
+          "GUID": "336084f2c38f4460a81c86215dc91e54",
+          "ParentFolderID": "61",
+          "HasSubFolders": "true"
+        },
+        {
+          "ID": "61",
+          "Name": "ISCs",
+          "GUID": "3a5a504e33334e7b9454479b62055ca2",
+          "ParentFolderID": "0",
+          "HasSubFolders": "true"
+        },
+        {
+          "ID": "14",
+          "Name": "Publishing Profiles",
+          "GUID": "0c360bd2a09b40c1814ca869dd171fb9",
+          "ParentFolderID": "1",
+          "HasSubFolders": "false"
+        }
+      ]
+    },
+    "ReleaseStates": {
+      "ReleaseState": [
+        {
+          "ID": "6",
+          "Name": "Approved",
+          "GUID": "5BE11318B3B5461494A5BCE99F571BAA",
+          "Color": "32768",
+          "ReviewColor": "16777215",
+          "Type": "0"
+        },
+        {
+          "ID": "7",
+          "Name": "Deleted",
+          "GUID": "a7725ee55499404999f5e08d6e257f4f",
+          "Color": "8421504",
+          "ReviewColor": "16777215",
+          "Type": "0"
+        },
+        {
+          "ID": "1",
+          "Name": "Draft",
+          "GUID": "25499636E3D440E29F2190C0F0E4FA7F",
+          "Color": "255",
+          "ReviewColor": "16777215",
+          "Type": "0"
+        },
+        {
+          "ID": "13",
+          "Name": "Draft (Use TP Builder)",
+          "GUID": "7c7fc05c5cee49d9bad25d5c49f1912f",
+          "Color": "255",
+          "ReviewColor": "16777215",
+          "Type": "0"
+        },
+        {
+          "ID": "8",
+          "Name": "ExtendedData",
+          "GUID": "737acdb3d0004ad582372126134f3384",
+          "Color": "16711935",
+          "ReviewColor": "16777215",
+          "Type": "0"
+        },
+        {
+          "ID": "12",
+          "Name": "Obsolete",
+          "GUID": "f68696dbab06460db60fab6ee909fd07",
+          "Color": "12632256",
+          "ReviewColor": "16777215",
+          "Type": "0"
+        },
+        {
+          "ID": "11",
+          "Name": "ReadOnly",
+          "GUID": "084981492365495080cd26752252b9fa",
+          "Color": "0",
+          "ReviewColor": "16777215",
+          "Type": "0"
+        },
+        {
+          "ID": "2",
+          "Name": "Submitted",
+          "GUID": "7C3FA213D5DD4835803049E7320F0A0C",
+          "Color": "16711680",
+          "ReviewColor": "16777215",
+          "Type": "0"
+        },
+        {
+          "ID": "14",
+          "Name": "Submitted (Use TP Builder)",
+          "GUID": "F602E9B0F16E4481B46CE8AAA9270E2C",
+          "Color": "16711680",
+          "ReviewColor": "16777215",
+          "Type": "0"
+        }
+      ]
+    },
+    "Variables": {
+      "Variable": [
+        {
+          "ID": "29",
+          "Name": "ACROCHECKPROXY",
+          "Description": "AcroCheck Proxy",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "false",
+          "MultiSelect": "false"
+        },
+        {
+          "ID": "40",
+          "Name": "ApprovalDates",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "false",
+          "MultiSelect": "false"
+        },
+        {
+          "ID": "56",
+          "Name": "AqfAlignment",
+          "Value": "Certificate I",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "1",
+          "Hidden": "false",
+          "MultiSelect": "false",
+          "ListOfValues": {
+            "Item": [
+              {
+                "-lovid": "0",
+                "-parentlovid": "-1",
+                "#text": "Advanced Diploma"
+              },
+              {
+                "-lovid": "1",
+                "-parentlovid": "-1",
+                "#text": "Certificate I"
+              },
+              {
+                "-lovid": "2",
+                "-parentlovid": "-1",
+                "#text": "Certificate II"
+              },
+              {
+                "-lovid": "3",
+                "-parentlovid": "-1",
+                "#text": "Certificate III"
+              },
+              {
+                "-lovid": "4",
+                "-parentlovid": "-1",
+                "#text": "Certificate IV"
+              },
+              {
+                "-lovid": "5",
+                "-parentlovid": "-1",
+                "#text": "Diploma"
+              },
+              {
+                "-lovid": "6",
+                "-parentlovid": "-1",
+                "#text": "Graduate Certificate"
+              },
+              {
+                "-lovid": "7",
+                "-parentlovid": "-1",
+                "#text": "Graduate Diploma"
+              }
+            ]
+          }
+        },
+        {
+          "ID": "34",
+          "Name": "Code",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "false",
+          "MultiSelect": "false"
+        },
+        {
+          "ID": "35",
+          "Name": "CRdate",
+          "Value": "2005",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "false",
+          "MultiSelect": "false"
+        },
+        {
+          "ID": "27",
+          "Name": "Currency",
+          "Value": "Current",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "1",
+          "Hidden": "false",
+          "MultiSelect": "false",
+          "ListOfValues": {
+            "Item": [
+              {
+                "-lovid": "0",
+                "-parentlovid": "-1",
+                "#text": "Current"
+              },
+              {
+                "-lovid": "1",
+                "-parentlovid": "-1",
+                "#text": "Replaced"
+              }
+            ]
+          }
+        },
+        {
+          "ID": "41",
+          "Name": "CurrencyChangeDates",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "false",
+          "MultiSelect": "false"
+        },
+        {
+          "ID": "26",
+          "Name": "EntCode",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "false",
+          "MultiSelect": "false"
+        },
+        {
+          "ID": "64",
+          "Name": "HISTCOMMENT",
+          "Description": "Used by Author-it to store history comments.",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "true",
+          "MultiSelect": "false"
+        },
+        {
+          "ID": "55",
+          "Name": "HistoryData",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "false",
+          "MultiSelect": "false"
+        },
+        {
+          "ID": "28",
+          "Name": "IMPORT_ID",
+          "Description": "Used by the importer to store the filename and description of topics and books created by importing from some formats.",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "false",
+          "MultiSelect": "false"
+        },
+        {
+          "ID": "50",
+          "Name": "IncludedRelease",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "false",
+          "MultiSelect": "false"
+        },
+        {
+          "ID": "52",
+          "Name": "MajorMinorFlag",
+          "Value": "Minor",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "1",
+          "Hidden": "false",
+          "MultiSelect": "false",
+          "ListOfValues": {
+            "Item": [
+              {
+                "-lovid": "0",
+                "-parentlovid": "-1",
+                "#text": "Major"
+              },
+              {
+                "-lovid": "1",
+                "-parentlovid": "-1",
+                "#text": "Minor"
+              }
+            ]
+          }
+        },
+        {
+          "ID": "36",
+          "Name": "MappingInformation",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "false",
+          "MultiSelect": "false"
+        },
+        {
+          "ID": "0",
+          "ValueObject": "0",
+          "Style": "0",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "false",
+          "MultiSelect": "false"
+        },
+        {
+          "ID": "68",
+          "Name": "PreReleaseName",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "false",
+          "MultiSelect": "false"
+        },
+        {
+          "ID": "59",
+          "Name": "PublishingJobId",
+          "Description": "Records the Publishing Job Id of this Training Package",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "false",
+          "MultiSelect": "false"
+        },
+        {
+          "ID": "32",
+          "Name": "RDate",
+          "Value": "12 April 2008",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "false",
+          "MultiSelect": "false"
+        },
+        {
+          "ID": "37",
+          "Name": "ReleaseName",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "false",
+          "MultiSelect": "false"
+        },
+        {
+          "ID": "42",
+          "Name": "ReleaseNumber",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "false",
+          "MultiSelect": "false"
+        },
+        {
+          "ID": "66",
+          "Name": "ReleaseToTgaDate",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "false",
+          "MultiSelect": "false"
+        },
+        {
+          "ID": "67",
+          "Name": "ReleaseYear",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "false",
+          "MultiSelect": "false"
+        },
+        {
+          "ID": "38",
+          "Name": "ResponsibleTrainingPackageDeveloper",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "false",
+          "MultiSelect": "false"
+        },
+        {
+          "ID": "57",
+          "Name": "StatisticalClassification",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "false",
+          "MultiSelect": "false"
+        },
+        {
+          "ID": "25",
+          "Name": "StatusComponent",
+          "Value": "Unofficial",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "1",
+          "Hidden": "false",
+          "MultiSelect": "false",
+          "ListOfValues": {
+            "Item": [
+              {
+                "-lovid": "0",
+                "-parentlovid": "-1",
+                "#text": "Official"
+              },
+              {
+                "-lovid": "1",
+                "-parentlovid": "-1",
+                "#text": "Unofficial"
+              }
+            ]
+          }
+        },
+        {
+          "ID": "44",
+          "Name": "StatusComponentChangeDate",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "false",
+          "MultiSelect": "false"
+        },
+        {
+          "ID": "58",
+          "Name": "StatusRelease",
+          "Value": "draft",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "1",
+          "Hidden": "false",
+          "MultiSelect": "false",
+          "ListOfValues": {
+            "Item": [
+              {
+                "-lovid": "0",
+                "-parentlovid": "-1",
+                "#text": "approved"
+              },
+              {
+                "-lovid": "1",
+                "-parentlovid": "-1",
+                "#text": "draft"
+              },
+              {
+                "-lovid": "2",
+                "-parentlovid": "-1",
+                "#text": "submitted"
+              }
+            ]
+          }
+        },
+        {
+          "ID": "45",
+          "Name": "StatusReleaseChangeDates",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "false",
+          "MultiSelect": "false"
+        },
+        {
+          "ID": "39",
+          "Name": "Title",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "false",
+          "MultiSelect": "false"
+        },
+        {
+          "ID": "53",
+          "Name": "TpcmsObjectType",
+          "Value": "TrainingPackage",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "1",
+          "Hidden": "false",
+          "MultiSelect": "false",
+          "ListOfValues": {
+            "Item": [
+              {
+                "-lovid": "0",
+                "-parentlovid": "-1",
+                "#text": "ConfidentialQualification"
+              },
+              {
+                "-lovid": "1",
+                "-parentlovid": "-1",
+                "#text": "ConfidentialSkillSet"
+              },
+              {
+                "-lovid": "2",
+                "-parentlovid": "-1",
+                "#text": "ConfidentialTrainingPackage"
+              },
+              {
+                "-lovid": "3",
+                "-parentlovid": "-1",
+                "#text": "ConfidentialUnitContextualisation"
+              },
+              {
+                "-lovid": "4",
+                "-parentlovid": "-1",
+                "#text": "Qualification"
+              },
+              {
+                "-lovid": "5",
+                "-parentlovid": "-1",
+                "#text": "SkillSet"
+              },
+              {
+                "-lovid": "6",
+                "-parentlovid": "-1",
+                "#text": "StreamlineAssesmentRequirements"
+              },
+              {
+                "-lovid": "7",
+                "-parentlovid": "-1",
+                "#text": "StreamlineCreditArrangements"
+              },
+              {
+                "-lovid": "8",
+                "-parentlovid": "-1",
+                "#text": "StreamlineQualification"
+              },
+              {
+                "-lovid": "9",
+                "-parentlovid": "-1",
+                "#text": "StreamlineSkillSet"
+              },
+              {
+                "-lovid": "10",
+                "-parentlovid": "-1",
+                "#text": "StreamlineTrainingPackage"
+              },
+              {
+                "-lovid": "11",
+                "-parentlovid": "-1",
+                "#text": "StreamlineUnit"
+              },
+              {
+                "-lovid": "12",
+                "-parentlovid": "-1",
+                "#text": "StreamlineUnitPackage"
+              },
+              {
+                "-lovid": "13",
+                "-parentlovid": "-1",
+                "#text": "TrainingPackage"
+              },
+              {
+                "-lovid": "14",
+                "-parentlovid": "-1",
+                "#text": "TrainingPackageHeaderInformation"
+              },
+              {
+                "-lovid": "15",
+                "-parentlovid": "-1",
+                "#text": "UnitContextualisation"
+              },
+              {
+                "-lovid": "16",
+                "-parentlovid": "-1",
+                "#text": "UnitOfCompetency"
+              }
+            ]
+          }
+        },
+        {
+          "ID": "69",
+          "Name": "TpCode",
+          "Description": "Code of owning Training Package",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "false",
+          "MultiSelect": "false"
+        },
+        {
+          "ID": "70",
+          "Name": "TrainingComponentType",
+          "Description": "The training component type as far as the national register is concerned",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "false",
+          "MultiSelect": "false"
+        },
+        {
+          "ID": "54",
+          "Name": "UnitGridData",
+          "Description": "Xml field to allow for storing multiple Unit Grid items",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "false",
+          "MultiSelect": "false"
+        },
+        {
+          "ID": "49",
+          "Name": "UnitOfCompetency",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "false",
+          "MultiSelect": "false"
+        },
+        {
+          "ID": "46",
+          "Name": "UsageRecommendation",
+          "Value": "current",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "1",
+          "Hidden": "false",
+          "MultiSelect": "false",
+          "ListOfValues": {
+            "Item": [
+              {
+                "-lovid": "0",
+                "-parentlovid": "-1",
+                "#text": "current"
+              },
+              {
+                "-lovid": "1",
+                "-parentlovid": "-1",
+                "#text": "deleted"
+              },
+              {
+                "-lovid": "2",
+                "-parentlovid": "-1",
+                "#text": "superseded"
+              }
+            ]
+          }
+        },
+        {
+          "ID": "47",
+          "Name": "UsageRecommendationChangeDates",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "false",
+          "MultiSelect": "false"
+        },
+        {
+          "ID": "30",
+          "Name": "V1",
+          "Value": "1",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "false",
+          "MultiSelect": "false"
+        },
+        {
+          "ID": "31",
+          "Name": "V2",
+          "Value": "4",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "false",
+          "MultiSelect": "false"
+        },
+        {
+          "ID": "33",
+          "Name": "VNum",
+          "Value": "1.5",
+          "ValueObject": "0",
+          "Style": "-1",
+          "Prompt": "false",
+          "IsVariantCriteria": "false",
+          "Type": "0",
+          "Hidden": "false",
+          "MultiSelect": "false"
+        }
+      ]
+    },
+    "Information": {
+      "Description": "XML Publishing Job",
+      "Date": "2016-01-18T10:06:25",
+      "Library": {
+        "Name": "TPCMS",
+        "GUID": "eb48bbee57b84a32a30abf1fd8a6309c",
+        "User": "(supervisor)",
+        "Locale": {
+          "ID": "3081",
+          "Description": "English (Australia)",
+          "Code": "en_AU"
+        }
+      },
+      "PublishJob": {
+        "BookID": "672387",
+        "JobID": "411265",
+        "PublishProfileID": "184"
+      }
+    }
+  }
+}
